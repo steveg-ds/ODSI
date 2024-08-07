@@ -8,7 +8,7 @@ Tournament Web Application
 
 The "Tournament" web application offers tournament tabulation staff all necessary functionalities to pair debaters for both preliminary and elimination rounds. It addresses several problems noted by the community with existing systems:
 
-Enhanced Pairing Algorithm: It eliminates the rigidity of traditional bracket systems that require extensive hard coding and are often unsuitable for smaller tournaments (fewer than 12-14 debaters). Our system checks all possible pairs and calculates the maximum number of valid preliminary rounds, avoiding issues inherent in traditional bracket structures.
+Enhanced Pairing Algorithm: It eliminates the rigidity of traditional bracket systems that require extensive hard coding and are often unsuitable for smaller tournaments (fewer than 12-14 debaters). this system checks all possible pairs and calculates the maximum number of valid preliminary rounds, avoiding issues inherent in traditional bracket structures.
 
 Automated Advancement Calculations: The application automates the calculation of the number of advancing debaters in each division, significantly reducing the potential for human error.
 
