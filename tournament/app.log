@@ -1,0 +1,2003 @@
+2024-07-12 04:03:52,668 - AppLogger - INFO - MongoDB connection established.
+2024-07-12 04:04:22,719 - AppLogger - ERROR - Error truncating collection: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6690f178ce483404a0218dc6, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-07-12 04:04:22,739 - AppLogger - INFO - set_tournament_data called
+2024-07-12 04:04:22,739 - AppLogger - INFO - Setting tournament data
+2024-07-12 04:04:22,739 - AppLogger - INFO - process_tournament_data called
+2024-07-12 04:04:22,739 - AppLogger - INFO - Starting process_tournament_data
+2024-07-12 04:04:22,740 - AppLogger - INFO - Found 100 schools in debaters data
+2024-07-12 04:04:22,740 - AppLogger - INFO - Processing debaters and judges
+2024-07-12 04:04:22,830 - AppLogger - INFO - Processed 100 debaters and 24 judges
+2024-07-12 04:04:22,830 - AppLogger - INFO - Processed 31 rooms
+2024-07-12 04:04:30,350 - AppLogger - INFO - MongoDB connection established.
+2024-07-12 04:04:59,134 - AppLogger - INFO - MongoDB connection established.
+2024-07-12 04:05:29,157 - AppLogger - ERROR - Error truncating collection: 172.18.0.2:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6690f1bbf2f7bbf80db10e15, topology_type: Unknown, servers: [<ServerDescription ('172.18.0.2', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('172.18.0.2:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-07-12 04:05:29,168 - AppLogger - INFO - set_tournament_data called
+2024-07-12 04:05:29,168 - AppLogger - INFO - Setting tournament data
+2024-07-12 04:05:29,168 - AppLogger - INFO - process_tournament_data called
+2024-07-12 04:05:29,168 - AppLogger - INFO - Starting process_tournament_data
+2024-07-12 04:05:29,169 - AppLogger - INFO - Found 100 schools in debaters data
+2024-07-12 04:05:29,169 - AppLogger - INFO - Processing debaters and judges
+2024-07-12 04:05:29,298 - AppLogger - INFO - Processed 100 debaters and 23 judges
+2024-07-12 04:05:29,298 - AppLogger - INFO - Processed 31 rooms
+2024-07-12 04:05:59,681 - AppLogger - ERROR - Error finding one document in Tournaments: 172.18.0.2:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6690f1bbf2f7bbf80db10e15, topology_type: Unknown, servers: [<ServerDescription ('172.18.0.2', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('172.18.0.2:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-07-12 04:06:29,718 - AppLogger - ERROR - Error inserting document: 172.18.0.2:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6690f1bbf2f7bbf80db10e15, topology_type: Unknown, servers: [<ServerDescription ('172.18.0.2', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('172.18.0.2:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-07-12 04:06:29,718 - AppLogger - INFO - Tournament data for Test Tournament inserted into the database
+2024-07-12 04:06:29,718 - AppLogger - INFO - set_tournament_entries called
+2024-07-12 04:06:29,718 - AppLogger - INFO - Setting tournament entries
+2024-07-12 04:06:29,718 - AppLogger - INFO - update_tournament_prelim_num called
+2024-07-12 04:06:29,718 - AppLogger - INFO - Updating preliminary round number for tournament: Test Tournament with value: 6
+2024-07-12 04:06:59,742 - AppLogger - ERROR - Error updating document: 172.18.0.2:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6690f1bbf2f7bbf80db10e15, topology_type: Unknown, servers: [<ServerDescription ('172.18.0.2', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('172.18.0.2:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-07-12 04:06:59,742 - AppLogger - INFO - Preliminary round number updated successfully for tournament: Test Tournament
+2024-07-12 04:06:59,742 - AppLogger - INFO - insert_tournament_structure called
+2024-07-12 04:06:59,742 - AppLogger - INFO - Inserting tournament structure for tournament: Test Tournament with 4 preliminary rounds.
+2024-07-12 04:06:59,742 - AppLogger - INFO - create_tournament_structure called
+2024-07-12 04:06:59,742 - AppLogger - INFO - Tournament object created
+2024-07-12 04:06:59,742 - AppLogger - INFO - Tournament structure created with 4 preliminary rounds.
+2024-07-12 04:07:29,778 - AppLogger - ERROR - Error updating document: 172.18.0.2:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6690f1bbf2f7bbf80db10e15, topology_type: Unknown, servers: [<ServerDescription ('172.18.0.2', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('172.18.0.2:27017: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-07-12 04:07:29,778 - AppLogger - INFO - Tournament structure inserted successfully for tournament: Test Tournament.
+2024-07-12 04:07:29,778 - AppLogger - INFO - tabulate_prelims called
+2024-07-12 04:07:29,778 - AppLogger - INFO - Tabulating preliminary rounds for tournament: Test Tournament
+2024-07-12 04:11:05,138 - AppLogger - INFO - MongoDB connection established.
+2024-07-12 04:11:35,203 - AppLogger - ERROR - Error truncating collection: mongo-db:27017: [Errno -2] Name or service not known (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 6690f3299892fb6d83c15780, topology_type: Unknown, servers: [<ServerDescription ('mongo-db', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('mongo-db:27017: [Errno -2] Name or service not known (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-07-12 04:11:35,215 - AppLogger - INFO - set_tournament_data called
+2024-07-12 04:11:35,215 - AppLogger - INFO - Setting tournament data
+2024-07-12 04:11:35,216 - AppLogger - INFO - process_tournament_data called
+2024-07-12 04:11:35,216 - AppLogger - INFO - Starting process_tournament_data
+2024-07-12 04:11:35,216 - AppLogger - INFO - Found 100 schools in debaters data
+2024-07-12 04:11:35,216 - AppLogger - INFO - Processing debaters and judges
+2024-07-12 04:11:35,352 - AppLogger - INFO - Processed 100 debaters and 24 judges
+2024-07-12 04:11:35,352 - AppLogger - INFO - Processed 31 rooms
+2024-07-12 23:07:57,445 - AppLogger - INFO - MongoDB connection established.
+2024-07-12 23:07:57,449 - AppLogger - INFO - Collection 'Tournaments' truncated successfully.
+2024-07-12 23:07:57,468 - AppLogger - INFO - set_tournament_data called
+2024-07-12 23:07:57,468 - AppLogger - INFO - Setting tournament data
+2024-07-12 23:07:57,468 - AppLogger - INFO - process_tournament_data called
+2024-07-12 23:07:57,468 - AppLogger - INFO - Starting process_tournament_data
+2024-07-12 23:07:57,469 - AppLogger - INFO - Found 100 schools in debaters data
+2024-07-12 23:07:57,469 - AppLogger - INFO - Processing debaters and judges
+2024-07-12 23:07:57,606 - AppLogger - INFO - Processed 100 debaters and 24 judges
+2024-07-12 23:07:57,606 - AppLogger - INFO - Processed 31 rooms
+2024-07-12 23:07:57,608 - AppLogger - ERROR - Error finding one document in Tournaments: 'NoneType' object is not subscriptable
+2024-07-12 23:07:57,627 - AppLogger - INFO - Document inserted with id: 6691fd9d8882f47ad4b7cd98
+2024-07-12 23:07:57,628 - AppLogger - INFO - Tournament data for Test Tournament inserted into the database
+2024-07-12 23:07:57,628 - AppLogger - INFO - set_tournament_entries called
+2024-07-12 23:07:57,628 - AppLogger - INFO - Setting tournament entries
+2024-07-12 23:07:57,628 - AppLogger - INFO - update_tournament_prelim_num called
+2024-07-12 23:07:57,628 - AppLogger - INFO - Updating preliminary round number for tournament: Test Tournament with value: 6
+2024-07-12 23:07:57,631 - AppLogger - INFO - Documents updated: 1
+2024-07-12 23:07:57,631 - AppLogger - INFO - Preliminary round number updated successfully for tournament: Test Tournament
+2024-07-12 23:07:57,631 - AppLogger - INFO - insert_tournament_structure called
+2024-07-12 23:07:57,631 - AppLogger - INFO - Inserting tournament structure for tournament: Test Tournament with 4 preliminary rounds.
+2024-07-12 23:07:57,631 - AppLogger - INFO - create_tournament_structure called
+2024-07-12 23:07:57,631 - AppLogger - INFO - Tournament object created
+2024-07-12 23:07:57,631 - AppLogger - INFO - Tournament structure created with 4 preliminary rounds.
+2024-07-12 23:07:57,633 - AppLogger - INFO - Documents updated: 1
+2024-07-12 23:07:57,633 - AppLogger - INFO - Tournament structure inserted successfully for tournament: Test Tournament.
+2024-07-12 23:07:57,633 - AppLogger - INFO - tabulate_prelims called
+2024-07-12 23:07:57,633 - AppLogger - INFO - Tabulating preliminary rounds for tournament: Test Tournament
+2024-07-12 23:07:57,634 - AppLogger - INFO - Document found in Tournaments: 6691fd9d8882f47ad4b7cd98
+2024-07-12 23:07:57,635 - AppLogger - INFO - create_divisions called
+2024-07-12 23:07:57,635 - AppLogger - INFO - Divisions object created
+2024-07-12 23:07:57,635 - AppLogger - INFO - create_tournament_structure called
+2024-07-12 23:07:57,635 - AppLogger - INFO - Tournament object created
+2024-07-12 23:07:57,635 - AppLogger - INFO - pair_prelims_flight_a called
+2024-07-12 23:07:57,638 - AppLogger - INFO - Flight A Round 1, Novice pairing successful!
+2024-07-12 23:07:57,638 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,640 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,641 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,642 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,643 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,644 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,645 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,646 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,646 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,647 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,648 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,649 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-12 23:07:57,649 - AppLogger - INFO - Flight A Round 2, Novice pairing successful!
+2024-07-12 23:07:57,649 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,650 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,651 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,652 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,653 - AppLogger - INFO - Swapped and Paired: Aff=84 with Neg=57, and Aff=53 with Neg=40
+2024-07-12 23:07:57,653 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,654 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,655 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,656 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,657 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,658 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,659 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,660 - AppLogger - INFO - Swapped and Paired: Aff=34 with Neg=79, and Aff=94 with Neg=57
+2024-07-12 23:07:57,660 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,661 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,662 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,663 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,664 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-12 23:07:57,664 - AppLogger - INFO - Flight A Round 3, Novice pairing successful!
+2024-07-12 23:07:57,664 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,665 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,666 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,666 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,667 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,668 - AppLogger - INFO - Swapped and Paired: Aff=98 with Neg=78, and Aff=10 with Neg=18
+2024-07-12 23:07:57,668 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,669 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,670 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,671 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,672 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,673 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,673 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,674 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,675 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-12 23:07:57,675 - AppLogger - INFO - Flight A Round 4, Novice pairing successful!
+2024-07-12 23:07:57,675 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,676 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,677 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,678 - AppLogger - INFO - Swapped and Paired: Aff=91 with Neg=94, and Aff=18 with Neg=27
+2024-07-12 23:07:57,678 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,679 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,680 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,681 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,682 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,683 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,684 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,685 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,686 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,687 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,687 - AppLogger - INFO - Swapped and Paired: Aff=24 with Neg=10, and Aff=79 with Neg=94
+2024-07-12 23:07:57,688 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,689 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,690 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-12 23:07:57,690 - AppLogger - INFO - Flight A Round 5, Novice pairing successful!
+2024-07-12 23:07:57,690 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,691 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,692 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,693 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,694 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,695 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,696 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,697 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,698 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,699 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,699 - AppLogger - INFO - can_pair called
+2024-07-12 23:07:57,700 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-12 23:07:57,700 - AppLogger - INFO - Flight A Round 6, Novice pairing successful!
+2024-07-12 23:07:57,703 - AppLogger - INFO - Documents updated: 1
+2024-07-12 23:07:57,703 - AppLogger - INFO - Preliminary rounds tabulated successfully for tournament: Test Tournament
+2024-07-12 23:07:57,703 - AppLogger - INFO - add_prelim_judges called
+2024-07-12 23:07:57,703 - AppLogger - INFO - Adding preliminary round judges for tournament: Test Tournament, division: Novice
+2024-07-12 23:07:57,704 - AppLogger - INFO - Document found in Tournaments: 6691fd9d8882f47ad4b7cd98
+2024-07-12 23:07:57,704 - AppLogger - INFO - add_judges_flight_a called
+2024-07-12 23:07:57,721 - AppLogger - INFO - Documents updated: 1
+2024-07-12 23:07:57,721 - AppLogger - INFO - Preliminary round judges added successfully for tournament: Test Tournament, division: Novice
+2024-07-12 23:07:57,721 - AppLogger - INFO - pair_one_elim called
+2024-07-12 23:07:57,721 - AppLogger - INFO - Pairing elimination round for tournament: Test Tournament, division: Novice
+2024-07-12 23:07:57,723 - AppLogger - INFO - Document found in Tournaments: 6691fd9d8882f47ad4b7cd98
+2024-07-12 23:07:57,726 - AppLogger - INFO - calculate_breaks called
+2024-07-12 23:07:57,726 - AppLogger - INFO - Initial elimination round: Quarter Finals, number of breaks: 8
+2024-07-12 23:07:57,726 - AppLogger - INFO - Adding Elim Rounds to tournament db entry
+2024-07-12 23:07:57,728 - AppLogger - INFO - Documents updated: 1
+2024-07-12 23:07:57,730 - AppLogger - INFO - Document found in Tournaments: 6691fd9d8882f47ad4b7cd98
+2024-07-12 23:07:57,730 - AppLogger - INFO - pair_elim_round called
+2024-07-12 23:07:57,730 - AppLogger - INFO - calculate_ranks called
+2024-07-12 23:07:57,730 - AppLogger - INFO - rank_debaters called
+2024-07-12 23:07:57,750 - AppLogger - INFO - Documents updated: 1
+2024-07-12 23:07:57,750 - AppLogger - INFO - Elimination round paired successfully
+2024-07-12 23:07:57,751 - AppLogger - INFO - add_elim_judges called
+2024-07-12 23:07:57,751 - AppLogger - INFO - Adding judges to elimination rounds for tournament: Test Tournament, division: Novice
+2024-07-12 23:07:57,753 - AppLogger - INFO - Document found in Tournaments: 6691fd9d8882f47ad4b7cd98
+2024-07-12 23:07:57,753 - AppLogger - INFO - add_elim_judges called
+2024-07-12 23:07:57,754 - AppLogger - INFO - Judge 3 already judged one of the debaters in (66, 98)
+2024-07-12 23:07:57,754 - AppLogger - INFO - Judge 5 already judged one of the debaters in (66, 98)
+2024-07-12 23:07:57,754 - AppLogger - INFO - Judge 0 already judged one of the debaters in (34, 48)
+2024-07-12 23:07:57,756 - AppLogger - INFO - Documents updated: 1
+2024-07-12 23:07:57,756 - AppLogger - INFO - Judges added to elimination round successfully
+2024-07-12 23:07:57,757 - AppLogger - INFO - pair_one_elim called
+2024-07-12 23:07:57,757 - AppLogger - INFO - Pairing elimination round for tournament: Test Tournament, division: Novice
+2024-07-12 23:07:57,758 - AppLogger - INFO - Document found in Tournaments: 6691fd9d8882f47ad4b7cd98
+2024-07-12 23:07:57,760 - AppLogger - INFO - calculate_breaks called
+2024-07-12 23:07:57,760 - AppLogger - INFO - Initial elimination round: Quarter Finals, number of breaks: 8
+2024-07-12 23:07:57,761 - AppLogger - INFO - New breaks for next round: 4
+2024-07-12 23:07:57,763 - AppLogger - INFO - Documents updated: 1
+2024-07-12 23:07:57,765 - AppLogger - INFO - Document found in Tournaments: 6691fd9d8882f47ad4b7cd98
+2024-07-12 23:07:57,765 - AppLogger - INFO - pair_elim_round called
+2024-07-12 23:07:57,765 - AppLogger - INFO - calculate_ranks called
+2024-07-12 23:07:57,765 - AppLogger - INFO - rank_debaters called
+2024-07-12 23:07:57,780 - AppLogger - INFO - Documents updated: 1
+2024-07-12 23:07:57,780 - AppLogger - INFO - Elimination round paired successfully
+2024-07-12 23:07:57,780 - AppLogger - INFO - add_elim_judges called
+2024-07-12 23:07:57,781 - AppLogger - INFO - Adding judges to elimination rounds for tournament: Test Tournament, division: Novice
+2024-07-12 23:07:57,782 - AppLogger - INFO - Document found in Tournaments: 6691fd9d8882f47ad4b7cd98
+2024-07-12 23:07:57,782 - AppLogger - INFO - add_elim_judges called
+2024-07-12 23:07:57,788 - AppLogger - INFO - Judge 22 already judged one of the debaters in (79, 98)
+2024-07-12 23:07:57,788 - AppLogger - INFO - Judge 18 already judged one of the debaters in (79, 98)
+2024-07-12 23:07:57,789 - AppLogger - INFO - Judge 2 already judged one of the debaters in (79, 98)
+2024-07-12 23:07:57,789 - AppLogger - INFO - Judge 16 already judged one of the debaters in (79, 98)
+2024-07-12 23:07:57,789 - AppLogger - INFO - Judge 22 already judged one of the debaters in (79, 98)
+2024-07-12 23:07:57,789 - AppLogger - INFO - Judge 18 already judged one of the debaters in (79, 98)
+2024-07-12 23:07:57,789 - AppLogger - INFO - Judge 21 already judged one of the debaters in (79, 98)
+2024-07-12 23:07:57,789 - AppLogger - INFO - Judge 15 already judged one of the debaters in (34, 43)
+2024-07-12 23:07:57,789 - AppLogger - INFO - Judge 21 already judged one of the debaters in (34, 43)
+2024-07-12 23:07:57,789 - AppLogger - INFO - Judge 0 already judged one of the debaters in (34, 43)
+2024-07-12 23:07:57,789 - AppLogger - INFO - Judge 13 already judged one of the debaters in (34, 43)
+2024-07-12 23:07:57,789 - AppLogger - INFO - Judge 15 already judged one of the debaters in (34, 43)
+2024-07-12 23:07:57,790 - AppLogger - INFO - Judge 15 already judged one of the debaters in (34, 43)
+2024-07-12 23:07:57,790 - AppLogger - INFO - Judge 12 already judged one of the debaters in (34, 43)
+2024-07-12 23:07:57,790 - AppLogger - INFO - Judge 15 already judged one of the debaters in (34, 43)
+2024-07-12 23:07:57,790 - AppLogger - INFO - Judge 3 already judged one of the debaters in (34, 43)
+2024-07-12 23:07:57,790 - AppLogger - INFO - Judge 11 already judged one of the debaters in (34, 43)
+2024-07-12 23:07:57,792 - AppLogger - INFO - Documents updated: 1
+2024-07-12 23:07:57,792 - AppLogger - INFO - Judges added to elimination round successfully
+2024-07-12 23:07:57,792 - AppLogger - INFO - pair_one_elim called
+2024-07-12 23:07:57,793 - AppLogger - INFO - Pairing elimination round for tournament: Test Tournament, division: Novice
+2024-07-12 23:07:57,794 - AppLogger - INFO - Document found in Tournaments: 6691fd9d8882f47ad4b7cd98
+2024-07-12 23:07:57,796 - AppLogger - INFO - calculate_breaks called
+2024-07-12 23:07:57,796 - AppLogger - INFO - Initial elimination round: Quarter Finals, number of breaks: 8
+2024-07-12 23:07:57,797 - AppLogger - INFO - New breaks for next round: 2
+2024-07-12 23:07:57,798 - AppLogger - INFO - Documents updated: 1
+2024-07-12 23:07:57,800 - AppLogger - INFO - Document found in Tournaments: 6691fd9d8882f47ad4b7cd98
+2024-07-12 23:07:57,800 - AppLogger - INFO - pair_elim_round called
+2024-07-12 23:07:57,800 - AppLogger - INFO - calculate_ranks called
+2024-07-12 23:07:57,800 - AppLogger - INFO - rank_debaters called
+2024-07-12 23:07:57,815 - AppLogger - INFO - Documents updated: 1
+2024-07-12 23:07:57,815 - AppLogger - INFO - Elimination round paired successfully
+2024-07-12 23:07:57,815 - AppLogger - INFO - add_elim_judges called
+2024-07-12 23:07:57,815 - AppLogger - INFO - Adding judges to elimination rounds for tournament: Test Tournament, division: Novice
+2024-07-12 23:07:57,817 - AppLogger - INFO - Document found in Tournaments: 6691fd9d8882f47ad4b7cd98
+2024-07-12 23:07:57,817 - AppLogger - INFO - add_elim_judges called
+2024-07-12 23:07:57,825 - AppLogger - INFO - Judge 21 already judged one of the debaters in (43, 98)
+2024-07-12 23:07:57,825 - AppLogger - INFO - Judge 6 already judged one of the debaters in (43, 98)
+2024-07-12 23:07:57,825 - AppLogger - INFO - Judge 8 already judged one of the debaters in (43, 98)
+2024-07-12 23:07:57,825 - AppLogger - INFO - Judge 5 already judged one of the debaters in (43, 98)
+2024-07-12 23:07:57,826 - AppLogger - INFO - Judge 23 already judged one of the debaters in (43, 98)
+2024-07-12 23:07:57,826 - AppLogger - INFO - Judge 16 already judged one of the debaters in (43, 98)
+2024-07-12 23:07:57,826 - AppLogger - INFO - Judge 3 already judged one of the debaters in (43, 98)
+2024-07-12 23:07:57,826 - AppLogger - INFO - Judge 5 already judged one of the debaters in (43, 98)
+2024-07-12 23:07:57,828 - AppLogger - INFO - Documents updated: 1
+2024-07-12 23:07:57,829 - AppLogger - INFO - Judges added to elimination round successfully
+2024-07-12 23:07:57,830 - AppLogger - ERROR - Error finding one document in Tournaments: 'NoneType' object is not subscriptable
+2024-07-12 23:07:57,830 - AppLogger - INFO - Round 1 set as active round for tournament: Test Tournament, Active Round Created
+2024-07-12 23:07:57,831 - AppLogger - INFO - Documents updated: 1
+2024-07-12 23:07:57,831 - AppLogger - INFO - set_active_tournament called
+2024-07-12 23:07:57,832 - AppLogger - INFO - Documents found
+2024-07-12 23:07:57,833 - AppLogger - INFO - Document inserted with id: 6691fd9d8882f47ad4b7cd99
+2024-07-12 23:07:57,834 - AppLogger - INFO - Inserted new active tournament: Test Tournament
+2024-07-13 02:53:32,129 - AppLogger - INFO - MongoDB connection established.
+2024-07-13 02:53:32,129 - AppLogger - INFO - set_active_tournament called
+2024-07-13 02:53:32,131 - AppLogger - INFO - Documents found
+2024-07-13 02:53:32,131 - AppLogger - INFO - Test Tournament is already set as active tournament
+2024-07-15 14:15:23,826 - AppLogger - INFO - MongoDB connection established.
+2024-07-15 14:15:23,827 - AppLogger - INFO - Collection 'Tournaments' truncated successfully.
+2024-07-15 14:15:23,844 - AppLogger - INFO - set_tournament_data called
+2024-07-15 14:15:23,844 - AppLogger - INFO - Setting tournament data
+2024-07-15 14:15:23,844 - AppLogger - INFO - process_tournament_data called
+2024-07-15 14:15:23,844 - AppLogger - INFO - Starting process_tournament_data
+2024-07-15 14:15:23,845 - AppLogger - INFO - Found 100 schools in debaters data
+2024-07-15 14:15:23,845 - AppLogger - INFO - Processing debaters and judges
+2024-07-15 14:15:23,931 - AppLogger - INFO - Processed 100 debaters and 25 judges
+2024-07-15 14:15:23,931 - AppLogger - INFO - Processed 31 rooms
+2024-07-15 14:15:23,932 - AppLogger - ERROR - Error finding one document in Tournaments: 'NoneType' object is not subscriptable
+2024-07-15 14:15:23,943 - AppLogger - INFO - Document inserted with id: 6695754b8ead85defb98a7d4
+2024-07-15 14:15:23,943 - AppLogger - INFO - Tournament data for Test Tournament inserted into the database
+2024-07-15 14:15:23,943 - AppLogger - INFO - set_tournament_entries called
+2024-07-15 14:15:23,943 - AppLogger - INFO - Setting tournament entries
+2024-07-15 14:15:23,943 - AppLogger - INFO - update_tournament_prelim_num called
+2024-07-15 14:15:23,943 - AppLogger - INFO - Updating preliminary round number for tournament: Test Tournament with value: 6
+2024-07-15 14:15:23,945 - AppLogger - INFO - Documents updated: 1
+2024-07-15 14:15:23,945 - AppLogger - INFO - Preliminary round number updated successfully for tournament: Test Tournament
+2024-07-15 14:15:23,945 - AppLogger - INFO - insert_tournament_structure called
+2024-07-15 14:15:23,945 - AppLogger - INFO - Inserting tournament structure for tournament: Test Tournament with 4 preliminary rounds.
+2024-07-15 14:15:23,945 - AppLogger - INFO - create_tournament_structure called
+2024-07-15 14:15:23,945 - AppLogger - INFO - Tournament object created
+2024-07-15 14:15:23,945 - AppLogger - INFO - Tournament structure created with 4 preliminary rounds.
+2024-07-15 14:15:23,946 - AppLogger - INFO - Documents updated: 1
+2024-07-15 14:15:23,946 - AppLogger - INFO - Tournament structure inserted successfully for tournament: Test Tournament.
+2024-07-15 14:15:23,946 - AppLogger - INFO - tabulate_prelims called
+2024-07-15 14:15:23,946 - AppLogger - INFO - Tabulating preliminary rounds for tournament: Test Tournament
+2024-07-15 14:15:23,946 - AppLogger - INFO - Document found in Tournaments: 6695754b8ead85defb98a7d4
+2024-07-15 14:15:23,946 - AppLogger - INFO - create_divisions called
+2024-07-15 14:15:23,946 - AppLogger - INFO - Divisions object created
+2024-07-15 14:15:23,946 - AppLogger - INFO - create_tournament_structure called
+2024-07-15 14:15:23,946 - AppLogger - INFO - Tournament object created
+2024-07-15 14:15:23,947 - AppLogger - INFO - pair_prelims_flight_a called
+2024-07-15 14:15:23,947 - AppLogger - INFO - Flight A Round 1, Novice pairing successful!
+2024-07-15 14:15:23,948 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,949 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,949 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,950 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,950 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,951 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,951 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,952 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,952 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,953 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,953 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,954 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-15 14:15:23,954 - AppLogger - INFO - Flight A Round 2, Novice pairing successful!
+2024-07-15 14:15:23,954 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,955 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,955 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,956 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,956 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,957 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,957 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,958 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,958 - AppLogger - INFO - Swapped and Paired: Aff=78 with Neg=94, and Aff=74 with Neg=91
+2024-07-15 14:15:23,958 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,959 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,959 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,960 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,960 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,961 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,961 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-15 14:15:23,961 - AppLogger - INFO - Flight A Round 3, Novice pairing successful!
+2024-07-15 14:15:23,961 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,962 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,962 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,962 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,963 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,963 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,964 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,964 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,965 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,965 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,966 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,966 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-15 14:15:23,966 - AppLogger - INFO - Flight A Round 4, Novice pairing successful!
+2024-07-15 14:15:23,966 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,967 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,967 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,968 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,968 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,968 - AppLogger - INFO - Swapped and Paired: Aff=48 with Neg=53, and Aff=17 with Neg=98
+2024-07-15 14:15:23,969 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,969 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,969 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,970 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,970 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,971 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,971 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,972 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,972 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,973 - AppLogger - INFO - Swapped and Paired: Aff=43 with Neg=78, and Aff=66 with Neg=34
+2024-07-15 14:15:23,973 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,973 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,974 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,974 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,975 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,975 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,975 - AppLogger - INFO - Swapped and Paired: Aff=91 with Neg=78, and Aff=94 with Neg=24
+2024-07-15 14:15:23,975 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,976 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,976 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,977 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,977 - AppLogger - INFO - Swapped and Paired: Aff=57 with Neg=78, and Aff=94 with Neg=53
+2024-07-15 14:15:23,977 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,978 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,978 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,978 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,978 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,979 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,979 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,979 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,979 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,980 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,980 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,980 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,980 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,981 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,981 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,981 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,981 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,982 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,982 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,982 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,982 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,983 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,983 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,983 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,983 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,983 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,984 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,984 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,984 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,985 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,985 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,985 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,985 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,986 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,986 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,986 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,986 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,987 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,987 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,988 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,988 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,988 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,988 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,989 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,989 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,989 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,989 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,990 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,990 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,990 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,990 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,991 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,991 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,991 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,991 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,992 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,992 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,992 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,992 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,993 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,993 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,993 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,993 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,994 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,994 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,994 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,994 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,995 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,995 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,996 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,996 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,996 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,996 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,997 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,997 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,997 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,997 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,998 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,998 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,998 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,998 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,998 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,999 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,999 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:23,999 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:23,999 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,000 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,000 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,000 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,000 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,001 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,001 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,001 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,002 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,002 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,002 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,002 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,002 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,003 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,003 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,003 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,004 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,004 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,004 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,004 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,005 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,005 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,005 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,005 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,006 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,006 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,006 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,006 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,007 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,007 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,007 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,007 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,008 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,008 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,008 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,008 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,009 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,009 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,009 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,009 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,010 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,010 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,010 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,010 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,011 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,011 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,011 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,011 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,012 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,012 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,012 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,012 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,013 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,013 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,013 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,013 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,014 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,014 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,014 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,014 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,014 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,014 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,015 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,015 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,015 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,015 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,016 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,016 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,016 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,016 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,017 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,017 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,017 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,018 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,018 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,018 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,019 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,019 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,019 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,019 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,020 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,020 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,021 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,021 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,022 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,022 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,022 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,022 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,023 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,023 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,023 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,023 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,024 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,024 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,024 - AppLogger - INFO - Invalid: Aff=94 vs Neg=78, affs remaining 1, negs remaining: 1
+2024-07-15 14:15:24,024 - AppLogger - INFO - Reached max iterations, restarting...
+2024-07-15 14:15:24,024 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,025 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,025 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,026 - AppLogger - INFO - Swapped and Paired: Aff=57 with Neg=18, and Aff=94 with Neg=74
+2024-07-15 14:15:24,026 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,026 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,027 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,027 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,028 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,028 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,028 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,029 - AppLogger - INFO - Swapped and Paired: Aff=91 with Neg=34, and Aff=48 with Neg=18
+2024-07-15 14:15:24,029 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,029 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,030 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,030 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,031 - AppLogger - INFO - Swapped and Paired: Aff=43 with Neg=53, and Aff=66 with Neg=34
+2024-07-15 14:15:24,031 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,031 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,032 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,032 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-15 14:15:24,032 - AppLogger - INFO - Flight A Round 5, Novice pairing successful!
+2024-07-15 14:15:24,032 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,033 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,033 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,034 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,034 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,035 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,035 - AppLogger - INFO - Swapped and Paired: Aff=10 with Neg=84, and Aff=57 with Neg=79
+2024-07-15 14:15:24,035 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,036 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,036 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,037 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,038 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,038 - AppLogger - INFO - Swapped and Paired: Aff=43 with Neg=78, and Aff=66 with Neg=84
+2024-07-15 14:15:24,038 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,039 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,039 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,040 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,040 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,040 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,041 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,041 - AppLogger - INFO - Swapped and Paired: Aff=89 with Neg=18, and Aff=17 with Neg=24
+2024-07-15 14:15:24,041 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,042 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,042 - AppLogger - INFO - can_pair called
+2024-07-15 14:15:24,043 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-15 14:15:24,043 - AppLogger - INFO - Flight A Round 6, Novice pairing successful!
+2024-07-15 14:15:24,044 - AppLogger - INFO - Documents updated: 1
+2024-07-15 14:15:24,044 - AppLogger - INFO - Preliminary rounds tabulated successfully for tournament: Test Tournament
+2024-07-15 14:15:24,044 - AppLogger - INFO - add_prelim_judges called
+2024-07-15 14:15:24,044 - AppLogger - INFO - Adding preliminary round judges for tournament: Test Tournament, division: Novice
+2024-07-15 14:15:24,044 - AppLogger - INFO - Document found in Tournaments: 6695754b8ead85defb98a7d4
+2024-07-15 14:15:24,044 - AppLogger - INFO - add_judges_flight_a called
+2024-07-15 14:15:24,055 - AppLogger - INFO - Documents updated: 1
+2024-07-15 14:15:24,056 - AppLogger - INFO - Preliminary round judges added successfully for tournament: Test Tournament, division: Novice
+2024-07-15 14:15:24,056 - AppLogger - INFO - pair_one_elim called
+2024-07-15 14:15:24,056 - AppLogger - INFO - Pairing elimination round for tournament: Test Tournament, division: Novice
+2024-07-15 14:15:24,056 - AppLogger - INFO - Document found in Tournaments: 6695754b8ead85defb98a7d4
+2024-07-15 14:15:24,057 - AppLogger - INFO - calculate_breaks called
+2024-07-15 14:15:24,057 - AppLogger - INFO - Initial elimination round: Quarter Finals, number of breaks: 8
+2024-07-15 14:15:24,057 - AppLogger - INFO - Adding Elim Rounds to tournament db entry
+2024-07-15 14:15:24,058 - AppLogger - INFO - Documents updated: 1
+2024-07-15 14:15:24,058 - AppLogger - INFO - Document found in Tournaments: 6695754b8ead85defb98a7d4
+2024-07-15 14:15:24,059 - AppLogger - INFO - pair_elim_round called
+2024-07-15 14:15:24,059 - AppLogger - INFO - calculate_ranks called
+2024-07-15 14:15:24,059 - AppLogger - INFO - rank_debaters called
+2024-07-15 14:15:24,072 - AppLogger - INFO - Documents updated: 1
+2024-07-15 14:15:24,072 - AppLogger - INFO - Elimination round paired successfully
+2024-07-15 14:15:24,072 - AppLogger - INFO - add_elim_judges called
+2024-07-15 14:15:24,072 - AppLogger - INFO - Adding judges to elimination rounds for tournament: Test Tournament, division: Novice
+2024-07-15 14:15:24,073 - AppLogger - INFO - Document found in Tournaments: 6695754b8ead85defb98a7d4
+2024-07-15 14:15:24,073 - AppLogger - INFO - add_elim_judges called
+2024-07-15 14:15:24,073 - AppLogger - INFO - Judge 8 already judged one of the debaters in (89, 43)
+2024-07-15 14:15:24,073 - AppLogger - INFO - Judge 6 already judged one of the debaters in (66, 17)
+2024-07-15 14:15:24,073 - AppLogger - INFO - Judge 14 already judged one of the debaters in (66, 17)
+2024-07-15 14:15:24,073 - AppLogger - INFO - Judge 0 already judged one of the debaters in (66, 17)
+2024-07-15 14:15:24,073 - AppLogger - INFO - Judge 5 already judged one of the debaters in (66, 17)
+2024-07-15 14:15:24,073 - AppLogger - INFO - Judge 0 already judged one of the debaters in (66, 17)
+2024-07-15 14:15:24,073 - AppLogger - INFO - Judge 13 already judged one of the debaters in (27, 84)
+2024-07-15 14:15:24,073 - AppLogger - INFO - Judge 22 already judged one of the debaters in (53, 74)
+2024-07-15 14:15:24,073 - AppLogger - INFO - Judge 6 already judged one of the debaters in (53, 74)
+2024-07-15 14:15:24,073 - AppLogger - INFO - Judge 4 already judged one of the debaters in (53, 74)
+2024-07-15 14:15:24,073 - AppLogger - INFO - Judge 21 already judged one of the debaters in (53, 74)
+2024-07-15 14:15:24,073 - AppLogger - INFO - Judge 2 already judged one of the debaters in (53, 74)
+2024-07-15 14:15:24,073 - AppLogger - INFO - Judge 6 already judged one of the debaters in (53, 74)
+2024-07-15 14:15:24,074 - AppLogger - INFO - Documents updated: 1
+2024-07-15 14:15:24,074 - AppLogger - INFO - Judges added to elimination round successfully
+2024-07-15 14:15:24,074 - AppLogger - INFO - pair_one_elim called
+2024-07-15 14:15:24,074 - AppLogger - INFO - Pairing elimination round for tournament: Test Tournament, division: Novice
+2024-07-15 14:15:24,075 - AppLogger - INFO - Document found in Tournaments: 6695754b8ead85defb98a7d4
+2024-07-15 14:15:24,075 - AppLogger - INFO - calculate_breaks called
+2024-07-15 14:15:24,075 - AppLogger - INFO - Initial elimination round: Quarter Finals, number of breaks: 8
+2024-07-15 14:15:24,075 - AppLogger - INFO - New breaks for next round: 4
+2024-07-15 14:15:24,076 - AppLogger - INFO - Documents updated: 1
+2024-07-15 14:15:24,076 - AppLogger - INFO - Document found in Tournaments: 6695754b8ead85defb98a7d4
+2024-07-15 14:15:24,076 - AppLogger - INFO - pair_elim_round called
+2024-07-15 14:15:24,076 - AppLogger - INFO - calculate_ranks called
+2024-07-15 14:15:24,077 - AppLogger - INFO - rank_debaters called
+2024-07-15 14:15:24,084 - AppLogger - INFO - Documents updated: 1
+2024-07-15 14:15:24,084 - AppLogger - INFO - Elimination round paired successfully
+2024-07-15 14:15:24,084 - AppLogger - INFO - add_elim_judges called
+2024-07-15 14:15:24,084 - AppLogger - INFO - Adding judges to elimination rounds for tournament: Test Tournament, division: Novice
+2024-07-15 14:15:24,085 - AppLogger - INFO - Document found in Tournaments: 6695754b8ead85defb98a7d4
+2024-07-15 14:15:24,085 - AppLogger - INFO - add_elim_judges called
+2024-07-15 14:15:24,090 - AppLogger - INFO - Judge 10 already judged one of the debaters in (89, 17)
+2024-07-15 14:15:24,090 - AppLogger - INFO - Judge 0 already judged one of the debaters in (89, 17)
+2024-07-15 14:15:24,090 - AppLogger - INFO - Judge 22 already judged one of the debaters in (53, 84)
+2024-07-15 14:15:24,090 - AppLogger - INFO - Judge 2 already judged one of the debaters in (53, 84)
+2024-07-15 14:15:24,090 - AppLogger - INFO - Judge 10 already judged one of the debaters in (53, 84)
+2024-07-15 14:15:24,090 - AppLogger - INFO - Judge 9 already judged one of the debaters in (53, 84)
+2024-07-15 14:15:24,091 - AppLogger - INFO - Documents updated: 1
+2024-07-15 14:15:24,091 - AppLogger - INFO - Judges added to elimination round successfully
+2024-07-15 14:15:24,092 - AppLogger - INFO - pair_one_elim called
+2024-07-15 14:15:24,092 - AppLogger - INFO - Pairing elimination round for tournament: Test Tournament, division: Novice
+2024-07-15 14:15:24,092 - AppLogger - INFO - Document found in Tournaments: 6695754b8ead85defb98a7d4
+2024-07-15 14:15:24,093 - AppLogger - INFO - calculate_breaks called
+2024-07-15 14:15:24,093 - AppLogger - INFO - Initial elimination round: Quarter Finals, number of breaks: 8
+2024-07-15 14:15:24,093 - AppLogger - INFO - New breaks for next round: 2
+2024-07-15 14:15:24,094 - AppLogger - INFO - Documents updated: 1
+2024-07-15 14:15:24,095 - AppLogger - INFO - Document found in Tournaments: 6695754b8ead85defb98a7d4
+2024-07-15 14:15:24,095 - AppLogger - INFO - pair_elim_round called
+2024-07-15 14:15:24,095 - AppLogger - INFO - calculate_ranks called
+2024-07-15 14:15:24,095 - AppLogger - INFO - rank_debaters called
+2024-07-15 14:15:24,102 - AppLogger - INFO - Documents updated: 1
+2024-07-15 14:15:24,102 - AppLogger - INFO - Elimination round paired successfully
+2024-07-15 14:15:24,102 - AppLogger - INFO - add_elim_judges called
+2024-07-15 14:15:24,102 - AppLogger - INFO - Adding judges to elimination rounds for tournament: Test Tournament, division: Novice
+2024-07-15 14:15:24,103 - AppLogger - INFO - Document found in Tournaments: 6695754b8ead85defb98a7d4
+2024-07-15 14:15:24,103 - AppLogger - INFO - add_elim_judges called
+2024-07-15 14:15:24,107 - AppLogger - INFO - Judge 0 already judged one of the debaters in (89, 84)
+2024-07-15 14:15:24,107 - AppLogger - INFO - Judge 19 already judged one of the debaters in (89, 84)
+2024-07-15 14:15:24,107 - AppLogger - INFO - Judge 14 already judged one of the debaters in (89, 84)
+2024-07-15 14:15:24,107 - AppLogger - INFO - Judge 12 already judged one of the debaters in (89, 84)
+2024-07-15 14:15:24,108 - AppLogger - INFO - Judge 10 already judged one of the debaters in (89, 84)
+2024-07-15 14:15:24,108 - AppLogger - INFO - Judge 22 already judged one of the debaters in (89, 84)
+2024-07-15 14:15:24,108 - AppLogger - INFO - Documents updated: 1
+2024-07-15 14:15:24,108 - AppLogger - INFO - Judges added to elimination round successfully
+2024-07-15 14:15:24,109 - AppLogger - ERROR - Error finding one document in Tournaments: 'NoneType' object is not subscriptable
+2024-07-15 14:15:24,109 - AppLogger - INFO - Round 1 set as active round for tournament: Test Tournament, Active Round Created
+2024-07-15 14:15:24,109 - AppLogger - INFO - Documents updated: 1
+2024-07-15 14:15:24,109 - AppLogger - INFO - set_active_tournament called
+2024-07-15 14:15:24,110 - AppLogger - INFO - Documents found
+2024-07-15 14:15:24,110 - AppLogger - INFO - Document inserted with id: 6695754c8ead85defb98a7d5
+2024-07-15 14:15:24,110 - AppLogger - INFO - Inserted new active tournament: Test Tournament
+2024-07-15 18:28:41,576 - AppLogger - INFO - MongoDB connection established.
+2024-07-15 18:28:41,582 - AppLogger - INFO - Collection 'Tournaments' truncated successfully.
+2024-07-15 18:28:41,583 - AppLogger - ERROR - Error finding one document in Tournaments: 'NoneType' object is not subscriptable
+2024-07-15 18:28:41,583 - AppLogger - INFO - Round 1 set as active round for tournament: Test Tournament, Active Round Created
+2024-07-15 18:28:41,585 - AppLogger - INFO - Documents updated: 0
+2024-07-15 18:29:08,049 - AppLogger - INFO - MongoDB connection established.
+2024-07-15 18:29:08,053 - AppLogger - ERROR - Error finding one document in Tournaments: 'NoneType' object is not subscriptable
+2024-07-15 18:29:08,053 - AppLogger - INFO - Round 1 set as active round for tournament: Test Tournament, Active Round Created
+2024-07-15 18:29:08,053 - AppLogger - INFO - Documents updated: 0
+2024-07-15 18:29:51,468 - AppLogger - INFO - MongoDB connection established.
+2024-07-15 18:29:51,472 - AppLogger - ERROR - Error finding one document in Tournaments: 'NoneType' object is not subscriptable
+2024-07-15 18:29:51,472 - AppLogger - INFO - Round 1 set as active round for tournament: Test Tournament, Active Round Created
+2024-07-15 18:29:51,473 - AppLogger - INFO - Documents updated: 0
+2024-07-15 18:33:28,357 - AppLogger - INFO - MongoDB connection established.
+2024-07-15 18:33:28,360 - AppLogger - INFO - Collection 'Tournaments' truncated successfully.
+2024-07-15 18:33:28,372 - AppLogger - INFO - set_tournament_data called
+2024-07-15 18:33:28,372 - AppLogger - INFO - Setting tournament data
+2024-07-15 18:33:28,372 - AppLogger - INFO - process_tournament_data called
+2024-07-15 18:33:28,372 - AppLogger - INFO - Starting process_tournament_data
+2024-07-15 18:33:28,373 - AppLogger - INFO - Found 100 schools in debaters data
+2024-07-15 18:33:28,373 - AppLogger - INFO - Processing debaters and judges
+2024-07-15 18:33:28,500 - AppLogger - INFO - Processed 100 debaters and 25 judges
+2024-07-15 18:33:28,500 - AppLogger - INFO - Processed 31 rooms
+2024-07-15 18:33:28,501 - AppLogger - ERROR - Error finding one document in Tournaments: 'NoneType' object is not subscriptable
+2024-07-15 18:33:28,517 - AppLogger - INFO - Document inserted with id: 6695b1c82fd2ec8d69a60330
+2024-07-15 18:33:28,518 - AppLogger - INFO - Tournament data for Test Tournament inserted into the database
+2024-07-15 18:33:28,518 - AppLogger - INFO - set_tournament_entries called
+2024-07-15 18:33:28,518 - AppLogger - INFO - Setting tournament entries
+2024-07-15 18:33:28,518 - AppLogger - INFO - update_tournament_prelim_num called
+2024-07-15 18:33:28,518 - AppLogger - INFO - Updating preliminary round number for tournament: Test Tournament with value: 6
+2024-07-15 18:33:28,519 - AppLogger - INFO - Documents updated: 1
+2024-07-15 18:33:28,519 - AppLogger - INFO - Preliminary round number updated successfully for tournament: Test Tournament
+2024-07-15 18:33:28,519 - AppLogger - INFO - insert_tournament_structure called
+2024-07-15 18:33:28,519 - AppLogger - INFO - Inserting tournament structure for tournament: Test Tournament with 4 preliminary rounds.
+2024-07-15 18:33:28,519 - AppLogger - INFO - create_tournament_structure called
+2024-07-15 18:33:28,519 - AppLogger - INFO - Tournament object created
+2024-07-15 18:33:28,519 - AppLogger - INFO - Tournament structure created with 4 preliminary rounds.
+2024-07-15 18:33:28,521 - AppLogger - INFO - Documents updated: 1
+2024-07-15 18:33:28,521 - AppLogger - INFO - Tournament structure inserted successfully for tournament: Test Tournament.
+2024-07-15 18:33:28,521 - AppLogger - INFO - tabulate_prelims called
+2024-07-15 18:33:28,521 - AppLogger - INFO - Tabulating preliminary rounds for tournament: Test Tournament
+2024-07-15 18:33:28,522 - AppLogger - INFO - Document found in Tournaments: 6695b1c82fd2ec8d69a60330
+2024-07-15 18:33:28,523 - AppLogger - INFO - create_divisions called
+2024-07-15 18:33:28,523 - AppLogger - INFO - Divisions object created
+2024-07-15 18:33:28,523 - AppLogger - INFO - create_tournament_structure called
+2024-07-15 18:33:28,523 - AppLogger - INFO - Tournament object created
+2024-07-15 18:33:28,523 - AppLogger - INFO - pair_prelims_flight_a called
+2024-07-15 18:33:28,524 - AppLogger - INFO - Flight A Round 1, Novice pairing successful!
+2024-07-15 18:33:28,524 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,526 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,527 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,527 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,528 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,529 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,529 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,530 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,531 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,531 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,532 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,533 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-15 18:33:28,533 - AppLogger - INFO - Flight A Round 2, Novice pairing successful!
+2024-07-15 18:33:28,533 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,534 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,535 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,536 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,536 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,537 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,538 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,538 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,539 - AppLogger - INFO - Swapped and Paired: Aff=79 with Neg=17, and Aff=98 with Neg=43
+2024-07-15 18:33:28,539 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,540 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,540 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,541 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,542 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,542 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-15 18:33:28,543 - AppLogger - INFO - Flight A Round 3, Novice pairing successful!
+2024-07-15 18:33:28,543 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,543 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,544 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,545 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,545 - AppLogger - INFO - Swapped and Paired: Aff=66 with Neg=78, and Aff=34 with Neg=95
+2024-07-15 18:33:28,546 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,546 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,547 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,548 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,548 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,549 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,550 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,550 - AppLogger - INFO - Swapped and Paired: Aff=27 with Neg=57, and Aff=18 with Neg=78
+2024-07-15 18:33:28,551 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,551 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,552 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,552 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,553 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,554 - AppLogger - INFO - Swapped and Paired: Aff=10 with Neg=40, and Aff=53 with Neg=57
+2024-07-15 18:33:28,554 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,555 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,555 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,555 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,556 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,556 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,556 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,557 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,557 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,558 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,558 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,558 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,559 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,559 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,559 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,560 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,560 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,561 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,561 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,562 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,562 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,563 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,563 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,564 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,564 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,565 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,565 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,566 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,566 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,566 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,566 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,567 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,567 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,568 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,568 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,569 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,569 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,570 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,570 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,570 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,570 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,571 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,571 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,572 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,572 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,572 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,573 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,573 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,573 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,574 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,574 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,575 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,575 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,576 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,576 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,577 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,577 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,577 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,577 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,578 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,578 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,579 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,579 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,580 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,580 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,580 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,580 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,581 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,581 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,582 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,582 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,583 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,583 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,583 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,583 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,584 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,584 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,585 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,585 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,586 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,586 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,587 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,587 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,588 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,588 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,589 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,589 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,589 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,589 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,590 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,590 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,591 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,591 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,592 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,592 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,593 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,593 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,594 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,594 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,594 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,595 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,595 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,595 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,596 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,596 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,597 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,597 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,598 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,598 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,599 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,599 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,599 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,600 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,600 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,600 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,601 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,601 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,602 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,602 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,603 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,603 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,604 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,604 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,604 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,604 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,605 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,605 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,606 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,606 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,607 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,607 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,608 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,608 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,609 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,609 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,609 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,610 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,611 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,611 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,611 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,612 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,612 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,612 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,613 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,613 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,614 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,614 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,615 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,615 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,615 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,615 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,616 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,616 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,617 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,617 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,618 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,618 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,619 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,619 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,619 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,619 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,620 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,620 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,622 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,622 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,623 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,623 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,624 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,624 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,625 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,625 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,625 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,626 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,626 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,626 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,627 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,627 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,628 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,628 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,629 - AppLogger - INFO - Invalid: Aff=53 vs Neg=40, affs remaining 1, negs remaining: 1
+2024-07-15 18:33:28,629 - AppLogger - INFO - Reached max iterations, restarting...
+2024-07-15 18:33:28,629 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,630 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,631 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,631 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,632 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,633 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,634 - AppLogger - INFO - Swapped and Paired: Aff=48 with Neg=40, and Aff=53 with Neg=43
+2024-07-15 18:33:28,634 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,635 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,635 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,636 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,637 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,637 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,638 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,639 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-15 18:33:28,639 - AppLogger - INFO - Flight A Round 4, Novice pairing successful!
+2024-07-15 18:33:28,639 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,640 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,640 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,641 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,642 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,642 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,643 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,644 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,645 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,645 - AppLogger - INFO - Swapped and Paired: Aff=17 with Neg=53, and Aff=94 with Neg=84
+2024-07-15 18:33:28,645 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,646 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,647 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,647 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,648 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,649 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,649 - AppLogger - INFO - Swapped and Paired: Aff=78 with Neg=34, and Aff=57 with Neg=66
+2024-07-15 18:33:28,649 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,650 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,651 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-15 18:33:28,651 - AppLogger - INFO - Flight A Round 5, Novice pairing successful!
+2024-07-15 18:33:28,651 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,652 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,652 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,653 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,654 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,655 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,655 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,656 - AppLogger - INFO - Swapped and Paired: Aff=78 with Neg=79, and Aff=89 with Neg=24
+2024-07-15 18:33:28,656 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,657 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,657 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,658 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,659 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,660 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,660 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,661 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,662 - AppLogger - INFO - can_pair called
+2024-07-15 18:33:28,662 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-15 18:33:28,663 - AppLogger - INFO - Flight A Round 6, Novice pairing successful!
+2024-07-15 18:33:28,665 - AppLogger - INFO - Documents updated: 1
+2024-07-15 18:33:28,665 - AppLogger - INFO - Preliminary rounds tabulated successfully for tournament: Test Tournament
+2024-07-15 18:33:28,665 - AppLogger - INFO - add_prelim_judges called
+2024-07-15 18:33:28,665 - AppLogger - INFO - Adding preliminary round judges for tournament: Test Tournament, division: Novice
+2024-07-15 18:33:28,667 - AppLogger - INFO - Document found in Tournaments: 6695b1c82fd2ec8d69a60330
+2024-07-15 18:33:28,667 - AppLogger - INFO - add_judges_flight_a called
+2024-07-15 18:33:28,682 - AppLogger - INFO - Documents updated: 1
+2024-07-15 18:33:28,682 - AppLogger - INFO - Preliminary round judges added successfully for tournament: Test Tournament, division: Novice
+2024-07-15 18:33:28,682 - AppLogger - INFO - pair_one_elim called
+2024-07-15 18:33:28,682 - AppLogger - INFO - Pairing elimination round for tournament: Test Tournament, division: Novice
+2024-07-15 18:33:28,684 - AppLogger - INFO - Document found in Tournaments: 6695b1c82fd2ec8d69a60330
+2024-07-15 18:33:28,685 - AppLogger - INFO - calculate_breaks called
+2024-07-15 18:33:28,685 - AppLogger - INFO - Initial elimination round: Quarter Finals, number of breaks: 8
+2024-07-15 18:33:28,685 - AppLogger - INFO - Adding Elim Rounds to tournament db entry
+2024-07-15 18:33:28,687 - AppLogger - INFO - Documents updated: 1
+2024-07-15 18:33:28,689 - AppLogger - INFO - Document found in Tournaments: 6695b1c82fd2ec8d69a60330
+2024-07-15 18:33:28,689 - AppLogger - INFO - pair_elim_round called
+2024-07-15 18:33:28,689 - AppLogger - INFO - calculate_ranks called
+2024-07-15 18:33:28,689 - AppLogger - INFO - rank_debaters called
+2024-07-15 18:33:28,708 - AppLogger - INFO - Documents updated: 1
+2024-07-15 18:33:28,708 - AppLogger - INFO - Elimination round paired successfully
+2024-07-15 18:33:28,708 - AppLogger - INFO - add_elim_judges called
+2024-07-15 18:33:28,708 - AppLogger - INFO - Adding judges to elimination rounds for tournament: Test Tournament, division: Novice
+2024-07-15 18:33:28,710 - AppLogger - INFO - Document found in Tournaments: 6695b1c82fd2ec8d69a60330
+2024-07-15 18:33:28,710 - AppLogger - INFO - add_elim_judges called
+2024-07-15 18:33:28,710 - AppLogger - INFO - Judge 18 already judged one of the debaters in (43, 57)
+2024-07-15 18:33:28,710 - AppLogger - INFO - Judge 4 already judged one of the debaters in (43, 57)
+2024-07-15 18:33:28,710 - AppLogger - INFO - Judge 14 already judged one of the debaters in (40, 94)
+2024-07-15 18:33:28,710 - AppLogger - INFO - Judge 3 already judged one of the debaters in (40, 94)
+2024-07-15 18:33:28,710 - AppLogger - INFO - Judge 3 already judged one of the debaters in (40, 94)
+2024-07-15 18:33:28,710 - AppLogger - INFO - Judge 17 already judged one of the debaters in (40, 94)
+2024-07-15 18:33:28,710 - AppLogger - INFO - Judge 3 already judged one of the debaters in (10, 18)
+2024-07-15 18:33:28,710 - AppLogger - INFO - Judge 3 already judged one of the debaters in (10, 18)
+2024-07-15 18:33:28,710 - AppLogger - INFO - Judge 19 already judged one of the debaters in (10, 18)
+2024-07-15 18:33:28,710 - AppLogger - INFO - Judge 24 already judged one of the debaters in (24, 17)
+2024-07-15 18:33:28,711 - AppLogger - INFO - Judge 3 already judged one of the debaters in (24, 17)
+2024-07-15 18:33:28,711 - AppLogger - INFO - Judge 22 already judged one of the debaters in (24, 17)
+2024-07-15 18:33:28,711 - AppLogger - INFO - Judge 3 already judged one of the debaters in (24, 17)
+2024-07-15 18:33:28,712 - AppLogger - INFO - Documents updated: 1
+2024-07-15 18:33:28,712 - AppLogger - INFO - Judges added to elimination round successfully
+2024-07-15 18:33:28,712 - AppLogger - INFO - pair_one_elim called
+2024-07-15 18:33:28,712 - AppLogger - INFO - Pairing elimination round for tournament: Test Tournament, division: Novice
+2024-07-15 18:33:28,714 - AppLogger - INFO - Document found in Tournaments: 6695b1c82fd2ec8d69a60330
+2024-07-15 18:33:28,715 - AppLogger - INFO - calculate_breaks called
+2024-07-15 18:33:28,715 - AppLogger - INFO - Initial elimination round: Quarter Finals, number of breaks: 8
+2024-07-15 18:33:28,715 - AppLogger - INFO - New breaks for next round: 4
+2024-07-15 18:33:28,717 - AppLogger - INFO - Documents updated: 1
+2024-07-15 18:33:28,720 - AppLogger - INFO - Document found in Tournaments: 6695b1c82fd2ec8d69a60330
+2024-07-15 18:33:28,720 - AppLogger - INFO - pair_elim_round called
+2024-07-15 18:33:28,720 - AppLogger - INFO - calculate_ranks called
+2024-07-15 18:33:28,720 - AppLogger - INFO - rank_debaters called
+2024-07-15 18:33:28,733 - AppLogger - INFO - Documents updated: 1
+2024-07-15 18:33:28,733 - AppLogger - INFO - Elimination round paired successfully
+2024-07-15 18:33:28,733 - AppLogger - INFO - add_elim_judges called
+2024-07-15 18:33:28,734 - AppLogger - INFO - Adding judges to elimination rounds for tournament: Test Tournament, division: Novice
+2024-07-15 18:33:28,736 - AppLogger - INFO - Document found in Tournaments: 6695b1c82fd2ec8d69a60330
+2024-07-15 18:33:28,736 - AppLogger - INFO - add_elim_judges called
+2024-07-15 18:33:28,742 - AppLogger - INFO - Judge 22 already judged one of the debaters in (43, 94)
+2024-07-15 18:33:28,742 - AppLogger - INFO - Judge 9 already judged one of the debaters in (43, 94)
+2024-07-15 18:33:28,742 - AppLogger - INFO - Judge 14 already judged one of the debaters in (43, 94)
+2024-07-15 18:33:28,742 - AppLogger - INFO - Judge 16 already judged one of the debaters in (43, 94)
+2024-07-15 18:33:28,742 - AppLogger - INFO - Judge 21 already judged one of the debaters in (43, 94)
+2024-07-15 18:33:28,743 - AppLogger - INFO - Judge 12 already judged one of the debaters in (43, 94)
+2024-07-15 18:33:28,743 - AppLogger - INFO - Judge 7 already judged one of the debaters in (43, 94)
+2024-07-15 18:33:28,743 - AppLogger - INFO - Judge 14 already judged one of the debaters in (43, 94)
+2024-07-15 18:33:28,743 - AppLogger - INFO - Judge 24 already judged one of the debaters in (24, 18)
+2024-07-15 18:33:28,743 - AppLogger - INFO - Judge 24 already judged one of the debaters in (24, 18)
+2024-07-15 18:33:28,743 - AppLogger - INFO - Judge 19 already judged one of the debaters in (24, 18)
+2024-07-15 18:33:28,745 - AppLogger - INFO - Documents updated: 1
+2024-07-15 18:33:28,745 - AppLogger - INFO - Judges added to elimination round successfully
+2024-07-15 18:33:28,745 - AppLogger - INFO - pair_one_elim called
+2024-07-15 18:33:28,745 - AppLogger - INFO - Pairing elimination round for tournament: Test Tournament, division: Novice
+2024-07-15 18:33:28,746 - AppLogger - INFO - Document found in Tournaments: 6695b1c82fd2ec8d69a60330
+2024-07-15 18:33:28,748 - AppLogger - INFO - calculate_breaks called
+2024-07-15 18:33:28,748 - AppLogger - INFO - Initial elimination round: Quarter Finals, number of breaks: 8
+2024-07-15 18:33:28,748 - AppLogger - INFO - New breaks for next round: 2
+2024-07-15 18:33:28,751 - AppLogger - INFO - Documents updated: 1
+2024-07-15 18:33:28,753 - AppLogger - INFO - Document found in Tournaments: 6695b1c82fd2ec8d69a60330
+2024-07-15 18:33:28,754 - AppLogger - INFO - pair_elim_round called
+2024-07-15 18:33:28,754 - AppLogger - INFO - calculate_ranks called
+2024-07-15 18:33:28,754 - AppLogger - INFO - rank_debaters called
+2024-07-15 18:33:28,765 - AppLogger - INFO - Documents updated: 1
+2024-07-15 18:33:28,765 - AppLogger - INFO - Elimination round paired successfully
+2024-07-15 18:33:28,765 - AppLogger - INFO - add_elim_judges called
+2024-07-15 18:33:28,765 - AppLogger - INFO - Adding judges to elimination rounds for tournament: Test Tournament, division: Novice
+2024-07-15 18:33:28,767 - AppLogger - INFO - Document found in Tournaments: 6695b1c82fd2ec8d69a60330
+2024-07-15 18:33:28,768 - AppLogger - INFO - add_elim_judges called
+2024-07-15 18:33:28,775 - AppLogger - INFO - Judge 5 already judged one of the debaters in (43, 18)
+2024-07-15 18:33:28,775 - AppLogger - INFO - Judge 19 already judged one of the debaters in (43, 18)
+2024-07-15 18:33:28,775 - AppLogger - INFO - Judge 20 already judged one of the debaters in (43, 18)
+2024-07-15 18:33:28,775 - AppLogger - INFO - Judge 15 already judged one of the debaters in (43, 18)
+2024-07-15 18:33:28,775 - AppLogger - INFO - Judge 19 already judged one of the debaters in (43, 18)
+2024-07-15 18:33:28,777 - AppLogger - INFO - Documents updated: 1
+2024-07-15 18:33:28,778 - AppLogger - INFO - Judges added to elimination round successfully
+2024-07-15 18:33:28,779 - AppLogger - ERROR - Error finding one document in Tournaments: 'NoneType' object is not subscriptable
+2024-07-15 18:33:28,779 - AppLogger - INFO - Round 1 set as active round for tournament: Test Tournament, Active Round Created
+2024-07-15 18:33:28,781 - AppLogger - INFO - Documents updated: 1
+2024-07-15 18:33:28,781 - AppLogger - INFO - set_active_tournament called
+2024-07-15 18:33:28,782 - AppLogger - INFO - Documents found
+2024-07-15 18:33:28,785 - AppLogger - INFO - Document inserted with id: 6695b1c82fd2ec8d69a60331
+2024-07-15 18:33:28,786 - AppLogger - INFO - Inserted new active tournament: Test Tournament
+2024-07-15 19:26:48,062 - AppLogger - INFO - MongoDB connection established.
+2024-07-15 19:26:48,073 - AppLogger - INFO - Collection 'Tournaments' truncated successfully.
+2024-07-15 19:26:48,081 - AppLogger - INFO - set_tournament_data called
+2024-07-15 19:26:48,081 - AppLogger - INFO - Setting tournament data
+2024-07-15 19:26:48,081 - AppLogger - INFO - process_tournament_data called
+2024-07-15 19:26:48,081 - AppLogger - INFO - Starting process_tournament_data
+2024-07-15 19:26:48,082 - AppLogger - INFO - Found 100 schools in debaters data
+2024-07-15 19:26:48,082 - AppLogger - INFO - Processing debaters and judges
+2024-07-15 19:26:48,172 - AppLogger - INFO - Processed 100 debaters and 24 judges
+2024-07-15 19:26:48,172 - AppLogger - INFO - Processed 31 rooms
+2024-07-15 19:26:48,174 - AppLogger - ERROR - Error finding one document in Tournaments: 'NoneType' object is not subscriptable
+2024-07-15 19:26:48,175 - AppLogger - INFO - Document inserted with id: 6695be48e8e113e7d3afd4dc
+2024-07-15 19:26:48,175 - AppLogger - INFO - Tournament data for Test Tournament inserted into the database
+2024-07-15 19:26:48,175 - AppLogger - INFO - set_tournament_entries called
+2024-07-15 19:26:48,175 - AppLogger - INFO - Setting tournament entries
+2024-07-15 19:26:48,175 - AppLogger - INFO - update_tournament_prelim_num called
+2024-07-15 19:26:48,175 - AppLogger - INFO - Updating preliminary round number for tournament: Test Tournament with value: 6
+2024-07-15 19:26:48,176 - AppLogger - INFO - Documents updated: 1
+2024-07-15 19:26:48,176 - AppLogger - INFO - Preliminary round number updated successfully for tournament: Test Tournament
+2024-07-15 19:26:48,176 - AppLogger - INFO - insert_tournament_structure called
+2024-07-15 19:26:48,176 - AppLogger - INFO - Inserting tournament structure for tournament: Test Tournament with 4 preliminary rounds.
+2024-07-15 19:26:48,176 - AppLogger - INFO - create_tournament_structure called
+2024-07-15 19:26:48,176 - AppLogger - INFO - Tournament object created
+2024-07-15 19:26:48,176 - AppLogger - INFO - Tournament structure created with 4 preliminary rounds.
+2024-07-15 19:26:48,178 - AppLogger - INFO - Documents updated: 1
+2024-07-15 19:26:48,178 - AppLogger - INFO - Tournament structure inserted successfully for tournament: Test Tournament.
+2024-07-15 19:26:48,178 - AppLogger - INFO - tabulate_prelims called
+2024-07-15 19:26:48,178 - AppLogger - INFO - Tabulating preliminary rounds for tournament: Test Tournament
+2024-07-15 19:26:48,179 - AppLogger - INFO - Document found in Tournaments: 6695be48e8e113e7d3afd4dc
+2024-07-15 19:26:48,180 - AppLogger - INFO - create_divisions called
+2024-07-15 19:26:48,180 - AppLogger - INFO - Divisions object created
+2024-07-15 19:26:48,180 - AppLogger - INFO - create_tournament_structure called
+2024-07-15 19:26:48,180 - AppLogger - INFO - Tournament object created
+2024-07-15 19:26:48,180 - AppLogger - INFO - pair_prelims_flight_a called
+2024-07-15 19:26:48,181 - AppLogger - INFO - Flight A Round 1, Novice pairing successful!
+2024-07-15 19:26:48,181 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,182 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,182 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,183 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,183 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,184 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,184 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,185 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,186 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,186 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,186 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,187 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-15 19:26:48,187 - AppLogger - INFO - Flight A Round 2, Novice pairing successful!
+2024-07-15 19:26:48,187 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,188 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,188 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,188 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,189 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,189 - AppLogger - INFO - Swapped and Paired: Aff=66 with Neg=57, and Aff=43 with Neg=89
+2024-07-15 19:26:48,189 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,190 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,190 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,191 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,191 - AppLogger - INFO - Swapped and Paired: Aff=53 with Neg=78, and Aff=74 with Neg=57
+2024-07-15 19:26:48,191 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,192 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,192 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,193 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,193 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,194 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,194 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-15 19:26:48,195 - AppLogger - INFO - Flight A Round 3, Novice pairing successful!
+2024-07-15 19:26:48,195 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,195 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,196 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,197 - AppLogger - INFO - Swapped and Paired: Aff=34 with Neg=57, and Aff=43 with Neg=89
+2024-07-15 19:26:48,197 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,197 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,198 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,198 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,199 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,199 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,200 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,200 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,201 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,201 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,202 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-15 19:26:48,202 - AppLogger - INFO - Flight A Round 4, Novice pairing successful!
+2024-07-15 19:26:48,202 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,203 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,203 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,204 - AppLogger - INFO - Swapped and Paired: Aff=79 with Neg=43, and Aff=89 with Neg=48
+2024-07-15 19:26:48,204 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,204 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,205 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,205 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,206 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,206 - AppLogger - INFO - Swapped and Paired: Aff=40 with Neg=66, and Aff=18 with Neg=43
+2024-07-15 19:26:48,206 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,207 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,208 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,208 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,208 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,209 - AppLogger - INFO - Swapped and Paired: Aff=91 with Neg=84, and Aff=1 with Neg=66
+2024-07-15 19:26:48,209 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,209 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,210 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,210 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,211 - AppLogger - INFO - Swapped and Paired: Aff=17 with Neg=98, and Aff=78 with Neg=84
+2024-07-15 19:26:48,211 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,211 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,212 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,212 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 2, negs remaining: 2
+2024-07-15 19:26:48,213 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,213 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,213 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,214 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,214 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,214 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,215 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,215 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,215 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,216 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,216 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,216 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,217 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,217 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,217 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,217 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,218 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,218 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,219 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,219 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,219 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,220 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,220 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,220 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,221 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,221 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,222 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,222 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,222 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,223 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,223 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,223 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,224 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,224 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,224 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,224 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,225 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,225 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,226 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,226 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,226 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,226 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,227 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,227 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,227 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,227 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,228 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,228 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,228 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,228 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,229 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,229 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,229 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,229 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,230 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,230 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,230 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,231 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,231 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,231 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,232 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,232 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,233 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,233 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,233 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,234 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,234 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,234 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,235 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,235 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,236 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,236 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,236 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,236 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,237 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,237 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,238 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,238 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,238 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,238 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,239 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,239 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,239 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,239 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,240 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,240 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,240 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,241 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,241 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,241 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,242 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,242 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,242 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,242 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,243 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,243 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,243 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,244 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,244 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,244 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,245 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,245 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,247 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,248 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,248 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,248 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,249 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,249 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,250 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,250 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,251 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,251 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,252 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,252 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,252 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,253 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,253 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,253 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,254 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,254 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,255 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,255 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,256 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,256 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,257 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,257 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,257 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,257 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,258 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,258 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,258 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,259 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,259 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,259 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,260 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,260 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,260 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,260 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,261 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,261 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,261 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,261 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,262 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,262 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,262 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,262 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,263 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,263 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,263 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,264 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,264 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,264 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,265 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,265 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,265 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,265 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,266 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,266 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,267 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,267 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,267 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,267 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,268 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,268 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,269 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,269 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,269 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,269 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,270 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,270 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,270 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,271 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,271 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,271 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,272 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,272 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,272 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,272 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,273 - AppLogger - INFO - Invalid: Aff=78 vs Neg=27, affs remaining 1, negs remaining: 1
+2024-07-15 19:26:48,273 - AppLogger - INFO - Reached max iterations, restarting...
+2024-07-15 19:26:48,273 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,274 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,274 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,275 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,275 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,276 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,276 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,277 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,278 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,279 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,279 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,280 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-15 19:26:48,280 - AppLogger - INFO - Flight A Round 5, Novice pairing successful!
+2024-07-15 19:26:48,280 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,281 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,281 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,282 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,282 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,283 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,283 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,284 - AppLogger - INFO - Swapped and Paired: Aff=78 with Neg=84, and Aff=1 with Neg=95
+2024-07-15 19:26:48,284 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,284 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,285 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,285 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,286 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,286 - AppLogger - INFO - can_pair called
+2024-07-15 19:26:48,287 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-15 19:26:48,287 - AppLogger - INFO - Flight A Round 6, Novice pairing successful!
+2024-07-15 19:26:48,288 - AppLogger - INFO - Documents updated: 1
+2024-07-15 19:26:48,289 - AppLogger - INFO - Preliminary rounds tabulated successfully for tournament: Test Tournament
+2024-07-15 19:26:48,289 - AppLogger - INFO - add_prelim_judges called
+2024-07-15 19:26:48,289 - AppLogger - INFO - Adding preliminary round judges for tournament: Test Tournament, division: Novice
+2024-07-15 19:26:48,290 - AppLogger - INFO - Document found in Tournaments: 6695be48e8e113e7d3afd4dc
+2024-07-15 19:26:48,290 - AppLogger - INFO - add_judges_flight_a called
+2024-07-15 19:26:48,302 - AppLogger - INFO - Documents updated: 1
+2024-07-15 19:26:48,302 - AppLogger - INFO - Preliminary round judges added successfully for tournament: Test Tournament, division: Novice
+2024-07-15 19:26:48,302 - AppLogger - INFO - pair_one_elim called
+2024-07-15 19:26:48,302 - AppLogger - INFO - Pairing elimination round for tournament: Test Tournament, division: Novice
+2024-07-15 19:26:48,304 - AppLogger - INFO - Document found in Tournaments: 6695be48e8e113e7d3afd4dc
+2024-07-15 19:26:48,305 - AppLogger - INFO - calculate_breaks called
+2024-07-15 19:26:48,305 - AppLogger - INFO - Initial elimination round: Quarter Finals, number of breaks: 8
+2024-07-15 19:26:48,305 - AppLogger - INFO - Adding Elim Rounds to tournament db entry
+2024-07-15 19:26:48,306 - AppLogger - INFO - Documents updated: 1
+2024-07-15 19:26:48,307 - AppLogger - INFO - Document found in Tournaments: 6695be48e8e113e7d3afd4dc
+2024-07-15 19:26:48,307 - AppLogger - INFO - pair_elim_round called
+2024-07-15 19:26:48,307 - AppLogger - INFO - calculate_ranks called
+2024-07-15 19:26:48,307 - AppLogger - INFO - rank_debaters called
+2024-07-15 19:26:48,317 - AppLogger - INFO - Documents updated: 1
+2024-07-15 19:26:48,317 - AppLogger - INFO - Elimination round paired successfully
+2024-07-15 19:26:48,317 - AppLogger - INFO - add_elim_judges called
+2024-07-15 19:26:48,317 - AppLogger - INFO - Adding judges to elimination rounds for tournament: Test Tournament, division: Novice
+2024-07-15 19:26:48,319 - AppLogger - INFO - Document found in Tournaments: 6695be48e8e113e7d3afd4dc
+2024-07-15 19:26:48,319 - AppLogger - INFO - add_elim_judges called
+2024-07-15 19:26:48,319 - AppLogger - INFO - Judge 22 already judged one of the debaters in (18, 95)
+2024-07-15 19:26:48,319 - AppLogger - INFO - Judge 22 already judged one of the debaters in (18, 95)
+2024-07-15 19:26:48,319 - AppLogger - INFO - Judge 19 already judged one of the debaters in (66, 10)
+2024-07-15 19:26:48,320 - AppLogger - INFO - Judge 14 already judged one of the debaters in (66, 10)
+2024-07-15 19:26:48,320 - AppLogger - INFO - Judge 22 already judged one of the debaters in (66, 10)
+2024-07-15 19:26:48,320 - AppLogger - INFO - Judge 5 already judged one of the debaters in (66, 10)
+2024-07-15 19:26:48,320 - AppLogger - INFO - Judge 6 already judged one of the debaters in (66, 10)
+2024-07-15 19:26:48,321 - AppLogger - INFO - Documents updated: 1
+2024-07-15 19:26:48,322 - AppLogger - INFO - Judges added to elimination round successfully
+2024-07-15 19:26:48,322 - AppLogger - INFO - pair_one_elim called
+2024-07-15 19:26:48,322 - AppLogger - INFO - Pairing elimination round for tournament: Test Tournament, division: Novice
+2024-07-15 19:26:48,323 - AppLogger - INFO - Document found in Tournaments: 6695be48e8e113e7d3afd4dc
+2024-07-15 19:26:48,324 - AppLogger - INFO - calculate_breaks called
+2024-07-15 19:26:48,324 - AppLogger - INFO - Initial elimination round: Quarter Finals, number of breaks: 8
+2024-07-15 19:26:48,324 - AppLogger - INFO - New breaks for next round: 4
+2024-07-15 19:26:48,325 - AppLogger - INFO - Documents updated: 1
+2024-07-15 19:26:48,327 - AppLogger - INFO - Document found in Tournaments: 6695be48e8e113e7d3afd4dc
+2024-07-15 19:26:48,327 - AppLogger - INFO - pair_elim_round called
+2024-07-15 19:26:48,327 - AppLogger - INFO - calculate_ranks called
+2024-07-15 19:26:48,327 - AppLogger - INFO - rank_debaters called
+2024-07-15 19:26:48,336 - AppLogger - INFO - Documents updated: 1
+2024-07-15 19:26:48,336 - AppLogger - INFO - Elimination round paired successfully
+2024-07-15 19:26:48,336 - AppLogger - INFO - add_elim_judges called
+2024-07-15 19:26:48,336 - AppLogger - INFO - Adding judges to elimination rounds for tournament: Test Tournament, division: Novice
+2024-07-15 19:26:48,338 - AppLogger - INFO - Document found in Tournaments: 6695be48e8e113e7d3afd4dc
+2024-07-15 19:26:48,338 - AppLogger - INFO - add_elim_judges called
+2024-07-15 19:26:48,341 - AppLogger - INFO - Judge 0 already judged one of the debaters in (43, 53)
+2024-07-15 19:26:48,341 - AppLogger - INFO - Judge 9 already judged one of the debaters in (43, 53)
+2024-07-15 19:26:48,341 - AppLogger - INFO - Judge 20 already judged one of the debaters in (43, 53)
+2024-07-15 19:26:48,341 - AppLogger - INFO - Judge 15 already judged one of the debaters in (43, 53)
+2024-07-15 19:26:48,341 - AppLogger - INFO - Judge 16 already judged one of the debaters in (66, 95)
+2024-07-15 19:26:48,341 - AppLogger - INFO - Judge 24 already judged one of the debaters in (66, 95)
+2024-07-15 19:26:48,341 - AppLogger - INFO - Judge 17 already judged one of the debaters in (66, 95)
+2024-07-15 19:26:48,341 - AppLogger - INFO - Judge 0 already judged one of the debaters in (66, 95)
+2024-07-15 19:26:48,341 - AppLogger - INFO - Judge 6 already judged one of the debaters in (66, 95)
+2024-07-15 19:26:48,341 - AppLogger - INFO - Judge 16 already judged one of the debaters in (66, 95)
+2024-07-15 19:26:48,341 - AppLogger - INFO - Judge 15 already judged one of the debaters in (66, 95)
+2024-07-15 19:26:48,341 - AppLogger - INFO - Judge 0 already judged one of the debaters in (66, 95)
+2024-07-15 19:26:48,342 - AppLogger - INFO - Documents updated: 1
+2024-07-15 19:26:48,342 - AppLogger - INFO - Judges added to elimination round successfully
+2024-07-15 19:26:48,342 - AppLogger - INFO - pair_one_elim called
+2024-07-15 19:26:48,342 - AppLogger - INFO - Pairing elimination round for tournament: Test Tournament, division: Novice
+2024-07-15 19:26:48,344 - AppLogger - INFO - Document found in Tournaments: 6695be48e8e113e7d3afd4dc
+2024-07-15 19:26:48,345 - AppLogger - INFO - calculate_breaks called
+2024-07-15 19:26:48,345 - AppLogger - INFO - Initial elimination round: Quarter Finals, number of breaks: 8
+2024-07-15 19:26:48,345 - AppLogger - INFO - New breaks for next round: 2
+2024-07-15 19:26:48,347 - AppLogger - INFO - Documents updated: 1
+2024-07-15 19:26:48,351 - AppLogger - INFO - Document found in Tournaments: 6695be48e8e113e7d3afd4dc
+2024-07-15 19:26:48,352 - AppLogger - INFO - pair_elim_round called
+2024-07-15 19:26:48,352 - AppLogger - INFO - calculate_ranks called
+2024-07-15 19:26:48,352 - AppLogger - INFO - rank_debaters called
+2024-07-15 19:26:48,360 - AppLogger - INFO - Documents updated: 1
+2024-07-15 19:26:48,360 - AppLogger - INFO - Elimination round paired successfully
+2024-07-15 19:26:48,360 - AppLogger - INFO - add_elim_judges called
+2024-07-15 19:26:48,360 - AppLogger - INFO - Adding judges to elimination rounds for tournament: Test Tournament, division: Novice
+2024-07-15 19:26:48,362 - AppLogger - INFO - Document found in Tournaments: 6695be48e8e113e7d3afd4dc
+2024-07-15 19:26:48,362 - AppLogger - INFO - add_elim_judges called
+2024-07-15 19:26:48,368 - AppLogger - INFO - Judge 2 already judged one of the debaters in (43, 66)
+2024-07-15 19:26:48,368 - AppLogger - INFO - Judge 17 already judged one of the debaters in (43, 66)
+2024-07-15 19:26:48,368 - AppLogger - INFO - Judge 23 already judged one of the debaters in (43, 66)
+2024-07-15 19:26:48,368 - AppLogger - INFO - Judge 24 already judged one of the debaters in (43, 66)
+2024-07-15 19:26:48,368 - AppLogger - INFO - Judge 20 already judged one of the debaters in (43, 66)
+2024-07-15 19:26:48,368 - AppLogger - INFO - Judge 20 already judged one of the debaters in (43, 66)
+2024-07-15 19:26:48,368 - AppLogger - INFO - Judge 11 already judged one of the debaters in (43, 66)
+2024-07-15 19:26:48,368 - AppLogger - INFO - Judge 21 already judged one of the debaters in (43, 66)
+2024-07-15 19:26:48,368 - AppLogger - INFO - Judge 20 already judged one of the debaters in (43, 66)
+2024-07-15 19:26:48,368 - AppLogger - INFO - Judge 21 already judged one of the debaters in (43, 66)
+2024-07-15 19:26:48,368 - AppLogger - INFO - Judge 8 already judged one of the debaters in (43, 66)
+2024-07-15 19:26:48,368 - AppLogger - INFO - Judge 2 already judged one of the debaters in (43, 66)
+2024-07-15 19:26:48,369 - AppLogger - INFO - Judge 8 already judged one of the debaters in (43, 66)
+2024-07-15 19:26:48,370 - AppLogger - INFO - Documents updated: 1
+2024-07-15 19:26:48,371 - AppLogger - INFO - Judges added to elimination round successfully
+2024-07-15 19:26:48,373 - AppLogger - ERROR - Error finding one document in Tournaments: 'NoneType' object is not subscriptable
+2024-07-15 19:26:48,373 - AppLogger - INFO - Round 1 set as active round for tournament: Test Tournament, Active Round Created
+2024-07-15 19:26:48,374 - AppLogger - INFO - Documents updated: 1
+2024-07-15 19:26:48,374 - AppLogger - INFO - set_active_tournament called
+2024-07-15 19:26:48,375 - AppLogger - INFO - Documents found
+2024-07-15 19:26:48,376 - AppLogger - INFO - Document inserted with id: 6695be48e8e113e7d3afd4dd
+2024-07-15 19:26:48,376 - AppLogger - INFO - Inserted new active tournament: Test Tournament
+2024-07-17 22:58:44,721 - AppLogger - INFO - MongoDB connection established.
+2024-07-17 22:58:44,724 - AppLogger - INFO - Collection 'Tournaments' truncated successfully.
+2024-07-17 22:58:44,742 - AppLogger - INFO - set_tournament_data called
+2024-07-17 22:58:44,742 - AppLogger - INFO - Setting tournament data
+2024-07-17 22:58:44,742 - AppLogger - INFO - process_tournament_data called
+2024-07-17 22:58:44,743 - AppLogger - INFO - Starting process_tournament_data
+2024-07-17 22:58:44,743 - AppLogger - INFO - Found 100 schools in debaters data
+2024-07-17 22:58:44,743 - AppLogger - INFO - Processing debaters and judges
+2024-07-17 22:58:44,830 - AppLogger - INFO - Processed 100 debaters and 24 judges
+2024-07-17 22:58:44,830 - AppLogger - INFO - Processed 31 rooms
+2024-07-17 22:58:44,832 - AppLogger - ERROR - Error finding one document in Tournaments: 'NoneType' object is not subscriptable
+2024-07-17 22:58:44,889 - AppLogger - INFO - Document inserted with id: 669892f44373937b8740e6cd
+2024-07-17 22:58:44,889 - AppLogger - INFO - Tournament data for Test Tournament inserted into the database
+2024-07-17 22:58:44,889 - AppLogger - INFO - set_tournament_entries called
+2024-07-17 22:58:44,889 - AppLogger - INFO - Setting tournament entries
+2024-07-17 22:58:44,889 - AppLogger - INFO - update_tournament_prelim_num called
+2024-07-17 22:58:44,889 - AppLogger - INFO - Updating preliminary round number for tournament: Test Tournament with value: 6
+2024-07-17 22:58:44,890 - AppLogger - INFO - Documents updated: 1
+2024-07-17 22:58:44,890 - AppLogger - INFO - Preliminary round number updated successfully for tournament: Test Tournament
+2024-07-17 22:58:44,890 - AppLogger - INFO - insert_tournament_structure called
+2024-07-17 22:58:44,890 - AppLogger - INFO - Inserting tournament structure for tournament: Test Tournament with 4 preliminary rounds.
+2024-07-17 22:58:44,890 - AppLogger - INFO - create_tournament_structure called
+2024-07-17 22:58:44,890 - AppLogger - INFO - Tournament object created
+2024-07-17 22:58:44,890 - AppLogger - INFO - Tournament structure created with 4 preliminary rounds.
+2024-07-17 22:58:44,891 - AppLogger - INFO - Documents updated: 1
+2024-07-17 22:58:44,891 - AppLogger - INFO - Tournament structure inserted successfully for tournament: Test Tournament.
+2024-07-17 22:58:44,891 - AppLogger - INFO - tabulate_prelims called
+2024-07-17 22:58:44,891 - AppLogger - INFO - Tabulating preliminary rounds for tournament: Test Tournament
+2024-07-17 22:58:44,892 - AppLogger - INFO - Document found in Tournaments: 669892f44373937b8740e6cd
+2024-07-17 22:58:44,892 - AppLogger - INFO - create_divisions called
+2024-07-17 22:58:44,892 - AppLogger - INFO - Divisions object created
+2024-07-17 22:58:44,893 - AppLogger - INFO - create_tournament_structure called
+2024-07-17 22:58:44,893 - AppLogger - INFO - Tournament object created
+2024-07-17 22:58:44,893 - AppLogger - INFO - pair_prelims_flight_a called
+2024-07-17 22:58:44,894 - AppLogger - INFO - Flight A Round 1, Novice pairing successful!
+2024-07-17 22:58:44,894 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,895 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,895 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,896 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,896 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,897 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,897 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,897 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,898 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,898 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,899 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,899 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-17 22:58:44,899 - AppLogger - INFO - Flight A Round 2, Novice pairing successful!
+2024-07-17 22:58:44,899 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,900 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,900 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,901 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,901 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,901 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,902 - AppLogger - INFO - Swapped and Paired: Aff=34 with Neg=17, and Aff=66 with Neg=79
+2024-07-17 22:58:44,902 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,902 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,903 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,903 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,904 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,904 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,904 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,905 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-17 22:58:44,905 - AppLogger - INFO - Flight A Round 3, Novice pairing successful!
+2024-07-17 22:58:44,905 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,905 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,906 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,906 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,907 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,907 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,908 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,908 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,908 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,909 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,909 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,910 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-17 22:58:44,910 - AppLogger - INFO - Flight A Round 4, Novice pairing successful!
+2024-07-17 22:58:44,910 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,910 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,911 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,911 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,912 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,912 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,913 - AppLogger - INFO - Swapped and Paired: Aff=10 with Neg=27, and Aff=40 with Neg=48
+2024-07-17 22:58:44,913 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,913 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,914 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,914 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,915 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,915 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,915 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,916 - AppLogger - INFO - Swapped and Paired: Aff=95 with Neg=34, and Aff=78 with Neg=84
+2024-07-17 22:58:44,916 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,916 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,917 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,917 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,918 - AppLogger - INFO - Swapped and Paired: Aff=17 with Neg=34, and Aff=78 with Neg=27
+2024-07-17 22:58:44,918 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,918 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,918 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,919 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,919 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,919 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,919 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,920 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,920 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,920 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,920 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,920 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,921 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,921 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,921 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,921 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,921 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,922 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,922 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,922 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,922 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,923 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,923 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,923 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,923 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,924 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,924 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,924 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,924 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,925 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,925 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,925 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,925 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,926 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,926 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,926 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,926 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,927 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,927 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,927 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,927 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,928 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,928 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,928 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,928 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,929 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,929 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,929 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,929 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,930 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,930 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,930 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,930 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,931 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,931 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,931 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,931 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,932 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,932 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,932 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,932 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,933 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,933 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,933 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,933 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,933 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,934 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,934 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,934 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,934 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,935 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,935 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,935 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,936 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,936 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,936 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,936 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,936 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,937 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,937 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,937 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,937 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,937 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,938 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,938 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,938 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,938 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,939 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,939 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,939 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,939 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,940 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,940 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,940 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,940 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,941 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,941 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,941 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,941 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,942 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,942 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,942 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,942 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,943 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,943 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,943 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,943 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,944 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,944 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,944 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,944 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,945 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,945 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,945 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,945 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,946 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,946 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,946 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,946 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,947 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,947 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,947 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,947 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,948 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,948 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,948 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,948 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,949 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,949 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,949 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,949 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,949 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,950 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,950 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,950 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,950 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,950 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,951 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,951 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,951 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,951 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,952 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,952 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,952 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,952 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,953 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,953 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,953 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,953 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,954 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,954 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,954 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,954 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,955 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,955 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,955 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,955 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,956 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,956 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,956 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,956 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,956 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,957 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,957 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,957 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,957 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,957 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,958 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,958 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,958 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,958 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,959 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,959 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,959 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,959 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,960 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,960 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,960 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,960 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,961 - AppLogger - INFO - Invalid: Aff=78 vs Neg=34, affs remaining 1, negs remaining: 1
+2024-07-17 22:58:44,961 - AppLogger - INFO - Reached max iterations, restarting...
+2024-07-17 22:58:44,961 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,961 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,962 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,962 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,963 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,963 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,964 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,964 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,965 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,965 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,965 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,966 - AppLogger - INFO - Swapped and Paired: Aff=43 with Neg=27, and Aff=40 with Neg=94
+2024-07-17 22:58:44,966 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,966 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,967 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-17 22:58:44,967 - AppLogger - INFO - Flight A Round 5, Novice pairing successful!
+2024-07-17 22:58:44,967 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,967 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,968 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,968 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,969 - AppLogger - INFO - Swapped and Paired: Aff=89 with Neg=66, and Aff=40 with Neg=34
+2024-07-17 22:58:44,969 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,969 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,970 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,970 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,971 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,971 - AppLogger - INFO - Swapped and Paired: Aff=78 with Neg=98, and Aff=10 with Neg=48
+2024-07-17 22:58:44,971 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,971 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,972 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,972 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,973 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,973 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,974 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,974 - AppLogger - INFO - Swapped and Paired: Aff=91 with Neg=84, and Aff=95 with Neg=98
+2024-07-17 22:58:44,974 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,975 - AppLogger - INFO - can_pair called
+2024-07-17 22:58:44,975 - AppLogger - INFO - Iterations to Complete Pairing: 11
+2024-07-17 22:58:44,975 - AppLogger - INFO - Flight A Round 6, Novice pairing successful!
+2024-07-17 22:58:44,977 - AppLogger - INFO - Documents updated: 1
+2024-07-17 22:58:44,977 - AppLogger - INFO - Preliminary rounds tabulated successfully for tournament: Test Tournament
+2024-07-17 22:58:44,977 - AppLogger - INFO - add_prelim_judges called
+2024-07-17 22:58:44,977 - AppLogger - INFO - Adding preliminary round judges for tournament: Test Tournament, division: Novice
+2024-07-17 22:58:44,978 - AppLogger - INFO - Document found in Tournaments: 669892f44373937b8740e6cd
+2024-07-17 22:58:44,978 - AppLogger - INFO - add_judges_flight_a called
+2024-07-17 22:58:44,989 - AppLogger - INFO - Documents updated: 1
+2024-07-17 22:58:44,989 - AppLogger - INFO - Preliminary round judges added successfully for tournament: Test Tournament, division: Novice
+2024-07-17 22:58:44,989 - AppLogger - INFO - pair_one_elim called
+2024-07-17 22:58:44,989 - AppLogger - INFO - Pairing elimination round for tournament: Test Tournament, division: Novice
+2024-07-17 22:58:44,990 - AppLogger - INFO - Document found in Tournaments: 669892f44373937b8740e6cd
+2024-07-17 22:58:44,991 - AppLogger - INFO - calculate_breaks called
+2024-07-17 22:58:44,991 - AppLogger - INFO - Initial elimination round: Quarter Finals, number of breaks: 8
+2024-07-17 22:58:44,991 - AppLogger - INFO - Adding Elim Rounds to tournament db entry
+2024-07-17 22:58:44,992 - AppLogger - INFO - Documents updated: 1
+2024-07-17 22:58:44,994 - AppLogger - INFO - Document found in Tournaments: 669892f44373937b8740e6cd
+2024-07-17 22:58:44,994 - AppLogger - INFO - pair_elim_round called
+2024-07-17 22:58:44,994 - AppLogger - INFO - calculate_ranks called
+2024-07-17 22:58:44,994 - AppLogger - INFO - rank_debaters called
+2024-07-17 22:58:45,007 - AppLogger - INFO - Documents updated: 1
+2024-07-17 22:58:45,007 - AppLogger - INFO - Elimination round paired successfully
+2024-07-17 22:58:45,007 - AppLogger - INFO - add_elim_judges called
+2024-07-17 22:58:45,007 - AppLogger - INFO - Adding judges to elimination rounds for tournament: Test Tournament, division: Novice
+2024-07-17 22:58:45,008 - AppLogger - INFO - Document found in Tournaments: 669892f44373937b8740e6cd
+2024-07-17 22:58:45,008 - AppLogger - INFO - add_elim_judges called
+2024-07-17 22:58:45,008 - AppLogger - INFO - Judge 17 already judged one of the debaters in (43, 34)
+2024-07-17 22:58:45,008 - AppLogger - INFO - Judge 11 already judged one of the debaters in (43, 34)
+2024-07-17 22:58:45,008 - AppLogger - INFO - Judge 13 already judged one of the debaters in (43, 34)
+2024-07-17 22:58:45,008 - AppLogger - INFO - Judge 7 already judged one of the debaters in (43, 34)
+2024-07-17 22:58:45,008 - AppLogger - INFO - Judge 23 already judged one of the debaters in (18, 91)
+2024-07-17 22:58:45,008 - AppLogger - INFO - Judge 14 already judged one of the debaters in (18, 91)
+2024-07-17 22:58:45,008 - AppLogger - INFO - Judge 8 already judged one of the debaters in (18, 91)
+2024-07-17 22:58:45,008 - AppLogger - INFO - Judge 4 already judged one of the debaters in (84, 10)
+2024-07-17 22:58:45,009 - AppLogger - INFO - Judge 4 already judged one of the debaters in (84, 10)
+2024-07-17 22:58:45,009 - AppLogger - INFO - Judge 7 already judged one of the debaters in (84, 10)
+2024-07-17 22:58:45,009 - AppLogger - INFO - Judge 24 already judged one of the debaters in (40, 95)
+2024-07-17 22:58:45,009 - AppLogger - INFO - Judge 21 already judged one of the debaters in (40, 95)
+2024-07-17 22:58:45,009 - AppLogger - INFO - Judge 24 already judged one of the debaters in (40, 95)
+2024-07-17 22:58:45,009 - AppLogger - INFO - Judge 14 already judged one of the debaters in (40, 95)
+2024-07-17 22:58:45,009 - AppLogger - INFO - Judge 5 already judged one of the debaters in (40, 95)
+2024-07-17 22:58:45,009 - AppLogger - INFO - Judge 15 already judged one of the debaters in (40, 95)
+2024-07-17 22:58:45,009 - AppLogger - INFO - Judge 5 already judged one of the debaters in (40, 95)
+2024-07-17 22:58:45,009 - AppLogger - INFO - Judge 4 already judged one of the debaters in (40, 95)
+2024-07-17 22:58:45,010 - AppLogger - INFO - Documents updated: 1
+2024-07-17 22:58:45,010 - AppLogger - INFO - Judges added to elimination round successfully
+2024-07-17 22:58:45,010 - AppLogger - INFO - pair_one_elim called
+2024-07-17 22:58:45,010 - AppLogger - INFO - Pairing elimination round for tournament: Test Tournament, division: Novice
+2024-07-17 22:58:45,011 - AppLogger - INFO - Document found in Tournaments: 669892f44373937b8740e6cd
+2024-07-17 22:58:45,012 - AppLogger - INFO - calculate_breaks called
+2024-07-17 22:58:45,012 - AppLogger - INFO - Initial elimination round: Quarter Finals, number of breaks: 8
+2024-07-17 22:58:45,012 - AppLogger - INFO - New breaks for next round: 4
+2024-07-17 22:58:45,014 - AppLogger - INFO - Documents updated: 1
+2024-07-17 22:58:45,015 - AppLogger - INFO - Document found in Tournaments: 669892f44373937b8740e6cd
+2024-07-17 22:58:45,015 - AppLogger - INFO - pair_elim_round called
+2024-07-17 22:58:45,015 - AppLogger - INFO - calculate_ranks called
+2024-07-17 22:58:45,015 - AppLogger - INFO - rank_debaters called
+2024-07-17 22:58:45,023 - AppLogger - INFO - Documents updated: 1
+2024-07-17 22:58:45,023 - AppLogger - INFO - Elimination round paired successfully
+2024-07-17 22:58:45,023 - AppLogger - INFO - add_elim_judges called
+2024-07-17 22:58:45,023 - AppLogger - INFO - Adding judges to elimination rounds for tournament: Test Tournament, division: Novice
+2024-07-17 22:58:45,024 - AppLogger - INFO - Document found in Tournaments: 669892f44373937b8740e6cd
+2024-07-17 22:58:45,024 - AppLogger - INFO - add_elim_judges called
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 7 already judged one of the debaters in (43, 10)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 18 already judged one of the debaters in (43, 10)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 10 already judged one of the debaters in (43, 10)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 21 already judged one of the debaters in (43, 10)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 24 already judged one of the debaters in (43, 10)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 24 already judged one of the debaters in (43, 10)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 22 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 4 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 14 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 16 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 13 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 11 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 21 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 23 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 4 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 22 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 24 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 5 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 11 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 0 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 7 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 0 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 23 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 21 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,029 - AppLogger - INFO - Judge 14 already judged one of the debaters in (18, 95)
+2024-07-17 22:58:45,031 - AppLogger - INFO - Documents updated: 1
+2024-07-17 22:58:45,031 - AppLogger - INFO - Judges added to elimination round successfully
+2024-07-17 22:58:45,031 - AppLogger - INFO - pair_one_elim called
+2024-07-17 22:58:45,031 - AppLogger - INFO - Pairing elimination round for tournament: Test Tournament, division: Novice
+2024-07-17 22:58:45,032 - AppLogger - INFO - Document found in Tournaments: 669892f44373937b8740e6cd
+2024-07-17 22:58:45,033 - AppLogger - INFO - calculate_breaks called
+2024-07-17 22:58:45,033 - AppLogger - INFO - Initial elimination round: Quarter Finals, number of breaks: 8
+2024-07-17 22:58:45,033 - AppLogger - INFO - New breaks for next round: 2
+2024-07-17 22:58:45,034 - AppLogger - INFO - Documents updated: 1
+2024-07-17 22:58:45,035 - AppLogger - INFO - Document found in Tournaments: 669892f44373937b8740e6cd
+2024-07-17 22:58:45,036 - AppLogger - INFO - pair_elim_round called
+2024-07-17 22:58:45,036 - AppLogger - INFO - calculate_ranks called
+2024-07-17 22:58:45,036 - AppLogger - INFO - rank_debaters called
+2024-07-17 22:58:45,043 - AppLogger - INFO - Documents updated: 1
+2024-07-17 22:58:45,043 - AppLogger - INFO - Elimination round paired successfully
+2024-07-17 22:58:45,043 - AppLogger - INFO - add_elim_judges called
+2024-07-17 22:58:45,043 - AppLogger - INFO - Adding judges to elimination rounds for tournament: Test Tournament, division: Novice
+2024-07-17 22:58:45,046 - AppLogger - INFO - Document found in Tournaments: 669892f44373937b8740e6cd
+2024-07-17 22:58:45,046 - AppLogger - INFO - add_elim_judges called
+2024-07-17 22:58:45,051 - AppLogger - INFO - Judge 15 already judged one of the debaters in (43, 95)
+2024-07-17 22:58:45,051 - AppLogger - INFO - Judge 15 already judged one of the debaters in (43, 95)
+2024-07-17 22:58:45,051 - AppLogger - INFO - Judge 5 already judged one of the debaters in (43, 95)
+2024-07-17 22:58:45,052 - AppLogger - INFO - Documents updated: 1
+2024-07-17 22:58:45,053 - AppLogger - INFO - Judges added to elimination round successfully
+2024-07-17 22:58:45,053 - AppLogger - ERROR - Error finding one document in Tournaments: 'NoneType' object is not subscriptable
+2024-07-17 22:58:45,054 - AppLogger - INFO - Round 1 set as active round for tournament: Test Tournament, Active Round Created
+2024-07-17 22:58:45,054 - AppLogger - INFO - Documents updated: 1
+2024-07-17 22:58:45,054 - AppLogger - INFO - set_active_tournament called
+2024-07-17 22:58:45,055 - AppLogger - INFO - Documents found
+2024-07-17 22:58:45,056 - AppLogger - INFO - Document inserted with id: 669892f54373937b8740e6ce
+2024-07-17 22:58:45,056 - AppLogger - INFO - Inserted new active tournament: Test Tournament
+2024-07-21 15:54:58,750 - AppLogger - INFO - MongoDB connection established.
+2024-07-21 15:54:58,754 - AppLogger - INFO - MongoDB connection established.
+2024-07-21 15:54:59,705 - AppLogger - INFO - MongoDB connection established.
+2024-07-21 15:54:59,707 - AppLogger - INFO - MongoDB connection established.
+2024-07-21 15:55:02,762 - AppLogger - INFO - Updating tournament dropdown options.
+2024-07-21 15:55:02,763 - AppLogger - INFO - update_dropdown_options called
+2024-07-21 15:55:02,763 - AppLogger - INFO - Updating dropdown options with selected value: None
+2024-07-21 15:55:02,767 - AppLogger - INFO - Documents found
+2024-07-21 15:55:02,767 - AppLogger - INFO - Retrieved 1 tournaments from the database
+2024-07-21 15:55:02,767 - AppLogger - INFO - Tournament names: ['Test Tournament']
+2024-07-21 15:55:02,767 - AppLogger - INFO - Dropdown options created: [{'label': 'Test Tournament', 'value': 'Test Tournament'}]
+2024-08-03 09:44:37,247 - AppLogger - INFO - MongoDB connection established.
+2024-08-03 09:44:37,248 - AppLogger - INFO - MongoDB connection established.
