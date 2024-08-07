@@ -4,7 +4,7 @@ from bson import ObjectId  # For handling MongoDB ObjectId
 from logger_config import logger
 
 class DB:
-    def __init__(self, host='host.docker.internal', port=27017, db_name='ODSI'):
+    def __init__(self, host='mongodb://localhost', port=27017, db_name='ODSI'):
         self.client = MongoClient(host, port)
         self.db = self.client[db_name]
         logger.info("MongoDB connection established.")

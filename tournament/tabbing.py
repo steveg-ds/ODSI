@@ -5,7 +5,20 @@ from collections import deque
 from collections import defaultdict
 from logger_config import logger
 
-class Tabbing:
+class AutoPropertiesMeta(type):
+    def __new__(cls, name, bases, dct):
+        for key, value in dct.items():
+            if not key.startswith('_') and isinstance(value, property):
+                # Create getter
+                getter_name = key
+                getter = lambda self, key=key: getattr(self, f"_{key}")
+                # Create setter
+                setter_name = key
+                setter = lambda self, value, key=key: setattr(self, f"_{key}", value)
+                dct[key] = property(getter, setter)
+        return super().__new__(cls, name, bases, dct)
+
+class Tabbing(metaclass=AutoPropertiesMeta):
     def __init__(self):
         self._num_prelims = None
         
@@ -647,7 +660,6 @@ class Tabbing:
         
         
         # Get the current round debates
-        # print(debates)
         current_round_debates = debates[round_name]
         current_round_ids = list(zip(current_round_debates['Aff_ID'], current_round_debates['Neg_ID']))
         
@@ -682,17 +694,3 @@ class Tabbing:
         return tournament
                 
     
-    
-# Example usage:
-#random_rounds = 6  # or any stopping point you wish
-
-
-#tabbing = Tabbing(random_rounds=6)
-#tabbing.pair_prelims_flight_a(division="Novice")
-#tabbing.pair_prelims_flight_a("Junior Varsity")
-#tabbing.pair_prelims_flight_b("Varsity")
-#tabbing.pair_prelims_flight_b("Professional")
-#print(self._tournament)
-#tabbing.pair_elim_rounds(division="Novice", num_rounds=6)
-#print(tabbing.create_postings(division="Novice", round_no="Round 7")) 
-

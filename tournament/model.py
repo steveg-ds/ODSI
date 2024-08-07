@@ -5,13 +5,22 @@ import base64
 import dash_bootstrap_components as dbc
 import random
 from typing import Optional
-
-from tabbing import Tabbing
 from logger_config import logger
-from db import DB
-from emails import EmailSender
 
-class Model: # TODO: finish integrating tabbing with model. using inheritance to avoid reconstructing all the code 
+class AutoPropertiesMeta(type):
+    def __new__(cls, name, bases, dct):
+        for key, value in dct.items():
+            if not key.startswith('_') and isinstance(value, property):
+                # Create getter
+                getter_name = key
+                getter = lambda self, key=key: getattr(self, f"_{key}")
+                # Create setter
+                setter_name = key
+                setter = lambda self, value, key=key: setattr(self, f"_{key}", value)
+                dct[key] = property(getter, setter)
+        return super().__new__(cls, name, bases, dct)
+
+class Model(metaclass=AutoPropertiesMeta): 
     """
     Model class for managing tournament data including debaters, judges, rooms, and tournament details.
 
@@ -26,8 +35,6 @@ class Model: # TODO: finish integrating tabbing with model. using inheritance to
 
     def __init__(self, tabbing, db, email):
         """Initialize Model with None values for attributes."""
-        
-        # TODO: i could probably create a self._data to avoid having to query the database every time i need data from it 
         
         self.tabbing = tabbing
         self._debaters = None
@@ -44,54 +51,6 @@ class Model: # TODO: finish integrating tabbing with model. using inheritance to
             logger.info(f"{func.__name__} called")
             return func(self, *args, **kwargs)
         return wrapper
-        
-    @property
-    def debaters(self):
-        return self._debaters
-    
-    @debaters.setter
-    def debaters(self, value):
-        self._debaters = value
-        
-    @property
-    def rooms(self):
-        return self._rooms
-    
-    @rooms.setter
-    def rooms(self, value):
-        self._rooms = value
-    
-    @property
-    def judges(self):
-        return self._judges
-    
-    @judges.setter
-    def judges(self, value):
-        self._judges = value
-        
-    @property
-    def tournament_name(self):
-        return self._tournament_name
-    
-    @judges.setter
-    def tournament_name(self, value):
-        self._tournament_name = value
-        
-    @property
-    def start_date(self):
-        return self._start_date
-    
-    @start_date.setter
-    def start_date(self, value):
-        self._start_date = value
-        
-    @property
-    def end_date(self):
-        return self._end_date
-    
-    @end_date.setter
-    def end_date(self, value):
-        self._end_date = value
         
     @log_call
     def get_file_alert_and_df(self, filename: str, contents: str) -> tuple:
@@ -270,7 +229,7 @@ class Model: # TODO: finish integrating tabbing with model. using inheritance to
             }
             
             # Insert the data into the database
-            if self.db.find_one_document(collection_name="Tournaments", query={"Tournament Name": tournament_name}) is None:
+            if self.db.find_one_document(collection_name="Tournaments", query={"Tournament Name": self.tournament_name}) is None:
                 self.db.insert_document(collection_name="Tournaments", document=data)
                 logger.info(f"Tournament data for {self._tournament_name} inserted into the database")
 
@@ -1351,106 +1310,3 @@ class Model: # TODO: finish integrating tabbing with model. using inheritance to
             raise
 
                                         
-# tournament_name = 'Test Tournament'
-
-# x = Model(Tabbing(), DB(), EmailSender())
-
-
-# # ### code to process/ tab entire tournament ###
-
-# x.db.truncate_collection(collection_name="Tournaments")
-
-# debaters = pd.read_csv('data/debaters.csv')
-# judges = pd.read_csv('data/judges.csv')
-# judges = judges.sample(n=len(debaters) // 4)
-# print(judges, len(judges))
-# rooms = pd.read_csv('data/rooms.csv')
-
-# x.debaters = debaters
-# x.judges = judges
-# x.rooms = rooms
-
-
-# x.set_tournament_data(tournament_name=tournament_name, start_date="07/07/24", end_date="07/09/24")
-# x.process_tournament_data()
-# x.set_tournament_entries(debaters=debaters, judges=judges, rooms=rooms)
-# x.update_tournament_prelim_num(tournament_name, 6)
-# x.insert_tournament_structure(tournament_name= tournament_name, num_rounds=4)
-
-# x.tabulate_prelims(tournament_name)
-# x.add_prelim_judges(tournament_name, "Novice")
-
-# x.pair_one_elim(tournament_name, "Novice")
-# x.add_elim_judges(tournament_name, "Novice")
-
-# x.pair_one_elim(tournament_name, "Novice")
-# x.add_elim_judges(tournament_name, "Novice")
-
-# x.pair_one_elim(tournament_name, "Novice")
-# x.add_elim_judges(tournament_name, "Novice")
-
-# x.update_active_round(tournament_name, round_num="Round 1")
-
-# x.set_active_tournament(tournament_name)
-
-
-
-### code to test changing/ removing data from db ###
-# data = x.db.find_one_document(collection_name="Tournaments", query={"Tournament Name": tournament_name})
-
-# debater = random.choice(data['Debaters'])
-# debater['Name'] = debater['First Name'] + " " + debater['Last Name']
-
-# division = debater['Division']
-
-# judge = random.choice(data['Judges'])
-# judge['Name'] = judge['First Name'] + " " + judge['Last Name']
-
-# new_name = judge['Last Name'] + " " + judge['First Name']
-
-# # List of divisions excluding the current debater's division
-# divisions = ['Novice', 'Junior Varsity', 'Varsity', 'Professional']
-# divisions = [d for d in divisions if d != division]
-
-# # Choose a random division from available divisions
-# new_division = random.choice(divisions)
-
-# entry_type = random.choice(['Debaters', 'Judges'])
-
-# if entry_type == 'Judges':
-#     entry_school = judge['School']
-#     entry = judge
-# elif entry_type == 'Debaters':
-#     entry_school = debater['School']
-#     entry = debater
-    
-# schools = [school['School'] for school in data[entry_type] if school['School'] != entry_school]
-# school = entry['School']
-
-# new_school = random.choice(schools)
-
-# room = random.choice(data['Rooms'])
-
-# room_numbers = random.sample(range(100, 300 + 1), 20)
-# rooms = [f"GTM, Room {room_num}" for room_num in room_numbers]
-
-# new_room = random.choice(rooms)
-
-# print(f"\n______________________________________________________________________________________________________________________\nEntered Data:\nDebater: {debater} \nJudge: {judge} \nOld Division: {division} \nNew Division: {new_division} \nOld School: {school} \nNew School: {new_school} \nRoom: {room} \nNew Room: {new_room}\n______________________________________________________________________________________________________________________\n")
-
-# x.update_name(tournament_name=tournament_name, entry_type=entry_type, entry_name=judge['Name'], new_name=new_name)
-
-# x.update_room(tournament_name=tournament_name, entry_name=room, new_room=new_room)
-
-# x.remove_room(tournament_name=tournament_name, entry_name=room)
-# x.remove_entry(tournament_name=tournament_name, entry_type=entry_type, entry_name=entry['Name'], entry_school=new_school)
-
-# x.update_school(tournament_name=tournament_name, entry_type=entry_type, entry_name=entry['Name'], entry_school=entry['School'], new_school=new_school)
-
-
-# x.update_division(tournament_name=tournament_name, entry_name=debater['Name'], entry_school=None, entry_division=None, new_division=new_division)
-
-# x.set_active_tournament(tournament_name)
-# x.notify_judges_of_ballots(tournament_name)
-# x.update_active_round(tournament_name, round_num="Round 1")
-# x.update_judging_table(tournament_name, round_num="Round 1", division="Novice")

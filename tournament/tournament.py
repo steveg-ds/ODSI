@@ -6,6 +6,12 @@ from dash import dash_table
 class Tournament:
     @staticmethod
     def setup_layout():
+        """
+        Sets up the main layout of the tournament dashboard with tabs for different sections.
+
+        Returns:
+            dbc.Container: A container with tabs for Welcome, Set Up Tournament, and Manage Tournament sections.
+        """
         return dbc.Container([
             dcc.Tabs([
                 dcc.Tab(label='Welcome', children=Tournament.welcome_layout()),
@@ -14,9 +20,14 @@ class Tournament:
             ])
         ], fluid=True, style={'textAlign': 'center', 'maxWidth': '800px', 'margin': '0 auto'})
 
-
     @staticmethod
     def welcome_layout():
+        """
+        Provides the layout for the Welcome tab, including introductory information and instructions.
+
+        Returns:
+            dbc.Container: A container with welcome text, introduction, and usage instructions.
+        """
         return dbc.Container([
             dbc.Row([
                 dbc.Col(html.Img(src='/assets/ipda.png', style={'width': '50%', 'marginTop': '20px'}), width=10)
@@ -44,8 +55,12 @@ class Tournament:
 
     @staticmethod
     def setup_tournament_layout():
-        # TODO: eventually this needs a signup modal
-        
+        """
+        Provides the layout for the Set Up Tournament tab, allowing users to input tournament details and upload necessary files.
+
+        Returns:
+            dbc.Container: A container with inputs for tournament details and file upload components.
+        """
         return dbc.Container([
             dbc.Row([
                 dbc.Col(dbc.Label("Tournament Name", className="font-weight-bold"), width=12),
@@ -103,10 +118,15 @@ class Tournament:
                 dbc.Col(dbc.Button("Submit", id="submit-button", color="primary", className="mr-1"), width=12)
             ], className="mb-3", justify='center')
         ])
-            
+
     @staticmethod
     def results_layout():
-        # TODO: eventually this needs a signup modal
+        """
+        Provides the layout for the Manage Tournament tab, allowing users to manage tournament entries, view results, and perform actions.
+
+        Returns:
+            dbc.Container: A container with components for managing tournament entries and viewing results.
+        """
         return dbc.Container([
             dbc.Row([
                 dbc.Col(dbc.Label("Select Tournament", className="font-weight-bold"), width=12),
@@ -185,27 +205,8 @@ class Tournament:
                                 dbc.Button("Close", id="close-action-info-modal", className="ml-auto")
                             ),
                         ], id="action-info-modal", is_open=False),
-                            dcc.Interval(id="action-info-auto-close", interval=2500, n_intervals=0, disabled=True),
+                        dcc.Interval(id="action-info-auto-close", interval=2500, n_intervals=0, disabled=True),
                     ]),
-                    
-                    dbc.Modal([
-            dbc.ModalHeader("Confirm Remove Entry"),
-            dbc.ModalBody([
-                dbc.Row([
-                    dbc.Col(html.Label("Re-pair necessary debates"), width="auto"),
-                    dbc.Col(dcc.Checklist(
-                        options=[
-                            {'label': '', 'value': 'repair'}
-                        ],
-                        id='repair-checkbox',
-                        inline=True
-                    ), width="auto"),
-                ])
-            ]),
-            dbc.ModalFooter(
-                dbc.Button("Confirm", id="confirm-remove-entry", className="ml-auto")
-            ),
-        ], id="confirm-remove-modal", is_open=False),
 
                     dcc.Tab(label='Tabbing', children=[
                         dbc.Row([
@@ -290,7 +291,7 @@ class Tournament:
                     ]),
                 ]), width=12),
             ], className='mb-3', justify='center'),
-            
+
             ### TABBING MODAL ###
             dbc.Modal([
                 dbc.ModalHeader("Modal Header"),
@@ -310,25 +311,20 @@ class Tournament:
                 ),
             ], id="tabbing-modal", is_open=False),
             dbc.Modal([
-            dbc.ModalHeader("Success"),
-            dbc.ModalBody("Pairing Completed Successfully."),
-            dbc.ModalFooter(
-                dbc.Button("Close", id="close-success-modal", className="ml-auto")
-            ),
-        ], id="pairing-success-modal", is_open=False),
-        dcc.Interval(id="modal-auto-close", interval=2500, n_intervals=0, disabled=True),
-        
-        dbc.Modal([
-            dbc.ModalHeader("Success"),
-            dbc.ModalBody("Ballots Sent Successfully"),
-            dbc.ModalFooter(
-                dbc.Button("Close", id="close-judge-success-modal", className="ml-auto")
-            ),
+                dbc.ModalHeader("Success"),
+                dbc.ModalBody("Pairing Completed Successfully."),
+                dbc.ModalFooter(
+                    dbc.Button("Close", id="close-success-modal", className="ml-auto")
+                ),
+            ], id="pairing-success-modal", is_open=False),
+            dcc.Interval(id="modal-auto-close", interval=2500, n_intervals=0, disabled=True),
+            
+            dbc.Modal([
+                dbc.ModalHeader("Success"),
+                dbc.ModalBody("Ballots Sent Successfully"),
+                dbc.ModalFooter(
+                    dbc.Button("Close", id="close-judge-success-modal", className="ml-auto")
+                ),
             ], id="judge-success-modal", is_open=False),
             dcc.Interval(id="judge-modal-auto-close", interval=2500, n_intervals=0, disabled=True)
-])
-        
-        
-            
-            ### TOURNAMENT OVERVIEW MODALS ###
-    
+        ])

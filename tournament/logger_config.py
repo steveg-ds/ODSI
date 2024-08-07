@@ -1,6 +1,5 @@
 import logging
 
-# Set up logging
 logger = logging.getLogger('AppLogger')
 logger.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
